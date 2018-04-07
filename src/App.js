@@ -1,3 +1,5 @@
+// @flow
+
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -17,5 +19,9 @@ class App extends Component {
     );
   }
 }
+
+const add = (a: number, b: number) => a + b;
+
+add(1, 2);
 
 export default App;
