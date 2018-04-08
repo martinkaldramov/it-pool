@@ -32,7 +32,7 @@ const App = () => (
   </div>
 );
 
-const add = (a: number, b: number) => a + b;
+const add = (a, b) => a + b;
 
 add(1, 2);
 
