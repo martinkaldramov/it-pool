@@ -1,3 +1,4 @@
+// @flow
 import React from 'react';
 import ActiveFilters from './active_filters';
 import StaticFilters from './static_filters';
@@ -9,6 +10,8 @@ import FlatButton from 'material-ui/FlatButton';
 const mockCofig = {
   jobsFound: 286542,
 };
+
+let filters:  = []
 
 const FilterBar = () => (
   <React.Fragment>
