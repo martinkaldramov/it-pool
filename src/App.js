@@ -12,8 +12,4 @@ const App = () => (
   </MuiThemeProvider>
 );
 
-const add = (a, b) => a + b;
-
-add(1, 2);
-
 export default App;
