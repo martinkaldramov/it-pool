@@ -36,6 +36,29 @@ ShallowWrapper {
           primary={false}
           secondary={false}
 />,
+        <ActiveFilters
+          filters={
+                    Array [
+                              Object {
+                                "active": true,
+                                "categorie": "Types",
+                                "name": "Any Type",
+                              },
+                              Object {
+                                "active": true,
+                                "categorie": "Experience",
+                                "name": "Intemediate",
+                              },
+                              Object {
+                                "active": true,
+                                "categorie": "Types",
+                                "name": "Any Type",
+                              },
+                            ]
+          }
+/>,
+        <Unknown />,
+        <Unknown />,
       ],
     },
     "ref": null,
@@ -80,6 +103,51 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "filters": Array [
+            Object {
+              "active": true,
+              "categorie": "Types",
+              "name": "Any Type",
+            },
+            Object {
+              "active": true,
+              "categorie": "Experience",
+              "name": "Intemediate",
+            },
+            Object {
+              "active": true,
+              "categorie": "Types",
+              "name": "Any Type",
+            },
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": Object {},
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": Object {},
+      },
     ],
     "type": Symbol(react.fragment),
   },
@@ -108,6 +176,29 @@ ShallowWrapper {
             primary={false}
             secondary={false}
 />,
+          <ActiveFilters
+            filters={
+                        Array [
+                                    Object {
+                                      "active": true,
+                                      "categorie": "Types",
+                                      "name": "Any Type",
+                                    },
+                                    Object {
+                                      "active": true,
+                                      "categorie": "Experience",
+                                      "name": "Intemediate",
+                                    },
+                                    Object {
+                                      "active": true,
+                                      "categorie": "Types",
+                                      "name": "Any Type",
+                                    },
+                                  ]
+            }
+/>,
+          <Unknown />,
+          <Unknown />,
         ],
       },
       "ref": null,
@@ -151,6 +242,51 @@ ShallowWrapper {
           "ref": null,
           "rendered": null,
           "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "filters": Array [
+              Object {
+                "active": true,
+                "categorie": "Types",
+                "name": "Any Type",
+              },
+              Object {
+                "active": true,
+                "categorie": "Experience",
+                "name": "Intemediate",
+              },
+              Object {
+                "active": true,
+                "categorie": "Types",
+                "name": "Any Type",
+              },
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": Object {},
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": Object {},
         },
       ],
       "type": Symbol(react.fragment),

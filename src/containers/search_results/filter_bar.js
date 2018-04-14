@@ -17,7 +17,7 @@ type filtersTypes = {
   active: boolean,
 };
 
-const filters: Array<filtersTypes> = [
+const filters = [
   {
     name: 'Any Type',
     categorie: 'Types',
