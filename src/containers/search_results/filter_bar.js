@@ -34,8 +34,8 @@ const FilterBar = () => (
     <p>Showing `${mockCofig.jobsFound}` results found</p>
     <FlatButton label="Filters" />
     <ActiveFilters filters={filters} />
-    <StaticFilters />
-    <InputFilters />
+    <StaticFilters filters={filters} />
+    <InputFilters filters={filters} />
   </React.Fragment>
 );
 

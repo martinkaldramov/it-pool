@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 import AppBar from 'material-ui/AppBar';
 import RaisedButton from 'material-ui/RaisedButton';
@@ -14,7 +14,7 @@ const styles = {
  * This example uses an [IconButton](/#/components/icon-button) on the left, has a clickable `title`
  * through the `onClick` property, and a [FlatButton](/#/components/flat-button) on the right.
  */
-const ApplicationBar = () => (
+const ApplicationBar = (): React.Node => (
   <AppBar
     showMenuIconButton={false}
     title={<span style={styles.title}>IT Pool</span>}
