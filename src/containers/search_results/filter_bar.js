@@ -11,13 +11,7 @@ const mockCofig = {
   jobsFound: 286542,
 };
 
-type filtersTypes = {
-  name: string,
-  categorie: string,
-  active: boolean,
-};
-
-const filters = [
+const filters: { name: string, categorie: string, active: boolean }[] = [
   {
     name: 'Any Type',
     categorie: 'Types',
