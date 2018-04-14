@@ -1,8 +1,6 @@
 import React from 'react';
 import AppBar from 'material-ui/AppBar';
-import IconButton from 'material-ui/IconButton';
-import NavigationClose from 'material-ui/svg-icons/navigation/close';
-import FlatButton from 'material-ui/FlatButton';
+import RaisedButton from 'material-ui/RaisedButton';
 
 const styles = {
   title: {
@@ -16,9 +14,15 @@ const styles = {
  */
 const AppBarExampleIconButton = () => (
   <AppBar
-    title={<span style={styles.title}>Title</span>}
-    iconElementLeft={<IconButton><NavigationClose /></IconButton>}
-    iconElementRight={<FlatButton label="Save" />}
+    showMenuIconButton={false}
+    title={<span style={styles.title}>IT Pool</span>}
+    iconElementRight={
+      <React.Fragment>
+        <RaisedButton className="sign-in" label="Log In" />
+        <RaisedButton className="sign-up" label="Sign Up" />
+        <RaisedButton className="post-a-job" label="Post a Job" />
+      </React.Fragment>
+    }
   />
 );
 
