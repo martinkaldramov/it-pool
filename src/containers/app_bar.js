@@ -1,6 +1,7 @@
 import React from 'react';
 import AppBar from 'material-ui/AppBar';
 import RaisedButton from 'material-ui/RaisedButton';
+import FlatButton from 'material-ui/FlatButton';
 
 const styles = {
   title: {
@@ -18,7 +19,7 @@ const AppBarExampleIconButton = () => (
     title={<span style={styles.title}>IT Pool</span>}
     iconElementRight={
       <React.Fragment>
-        <RaisedButton className="sign-in" label="Log In" />
+        <FlatButton className="sign-in" label="Log In" />
         <RaisedButton className="sign-up" label="Sign Up" />
         <RaisedButton className="post-a-job" label="Post a Job" />
       </React.Fragment>
