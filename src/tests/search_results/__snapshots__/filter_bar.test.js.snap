@@ -78,7 +78,7 @@ ShallowWrapper {
                             ]
           }
 />,
-        <Unknown
+        <StaticFilters
           filters={
                     Array [
                               Object {
@@ -222,7 +222,7 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": null,
-        "type": Object {},
+        "type": [Function],
       },
     ],
     "type": Symbol(react.fragment),
@@ -294,7 +294,7 @@ ShallowWrapper {
                                   ]
             }
 />,
-          <Unknown
+          <StaticFilters
             filters={
                         Array [
                                     Object {
@@ -438,7 +438,7 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
-          "type": Object {},
+          "type": [Function],
         },
       ],
       "type": Symbol(react.fragment),
