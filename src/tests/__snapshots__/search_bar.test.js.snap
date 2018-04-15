@@ -28,6 +28,7 @@ ShallowWrapper {
           label="Search"
           labelPosition="after"
           labelStyle={Object {}}
+          onClick={[Function]}
           onKeyboardFocus={[Function]}
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
@@ -61,6 +62,7 @@ ShallowWrapper {
           "label": "Search",
           "labelPosition": "after",
           "labelStyle": Object {},
+          "onClick": [Function],
           "onKeyboardFocus": [Function],
           "onMouseEnter": [Function],
           "onMouseLeave": [Function],
@@ -92,6 +94,7 @@ ShallowWrapper {
             label="Search"
             labelPosition="after"
             labelStyle={Object {}}
+            onClick={[Function]}
             onKeyboardFocus={[Function]}
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
@@ -125,6 +128,7 @@ ShallowWrapper {
             "label": "Search",
             "labelPosition": "after",
             "labelStyle": Object {},
+            "onClick": [Function],
             "onKeyboardFocus": [Function],
             "onMouseEnter": [Function],
             "onMouseLeave": [Function],

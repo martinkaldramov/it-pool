@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import createHistory from 'history/createBrowserHistory';
 
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
@@ -16,6 +15,7 @@ ReactDOM.render(
   <Router>
     <Route path="/" component={App} />
   </Router>,
+  // eslint-disable-next-line
   document.getElementById('root'),
 );
 registerServiceWorker();
