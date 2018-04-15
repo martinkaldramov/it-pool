@@ -2,6 +2,6 @@
 
 import React from 'react';
 
-const ActiveFilters = props: {}[] => <p>Active filters</p>;
+const ActiveFilters = (props: {}[]) => <p>Active filters</p>;
 
 export default ActiveFilters;
