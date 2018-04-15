@@ -3,12 +3,11 @@ import * as React from 'react';
 import { Card, CardActions, CardHeader, CardText } from 'material-ui/Card';
 import RaisedButton from 'material-ui/RaisedButton';
 
-type Props = {
+type JobData = {
   title: string,
   views: number,
   company: string,
-  // eslint-disable-next-line
-  date: ?{},
+  date: ?number,
   city: string,
   type: string,
   experience: string,
@@ -17,22 +16,26 @@ type Props = {
   skills: string[],
 };
 
+type Props = {
+  jobData: JobData,
+};
+
 const Job = (props: Props) => (
   <Card>
     <CardHeader
-      title={props.title}
+      title={props.jobData.title}
       subtitle={`
-        ${props.company} 
-        ${props.views}
-        ${props.city} 
-        ${props.type} 
-        ${props.experience} 
-        ${props.category}
+        ${props.jobData.company} 
+        ${props.jobData.views}
+        ${props.jobData.city} 
+        ${props.jobData.type} 
+        ${props.jobData.experience} 
+        ${props.jobData.category}
       `}
     />
     <CardText>
-      {props.description}
-      {props.skills}
+      {props.jobData.description}
+      {props.jobData.skills}
     </CardText>
     <CardActions>
       <RaisedButton label="Like" />
