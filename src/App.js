@@ -6,7 +6,7 @@ import React from 'react';
 import './App.css';
 
 import ApplicationBar from './containers/app_bar';
-import SearchBar from './containers/search';
+import SearchBar from './containers/search_bar';
 
 const App = () => (
   <MuiThemeProvider>
