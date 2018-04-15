@@ -53,12 +53,21 @@ const filters: Filter[] = [
 
 const FilterBar = () => {
   const activeFilters = filters.filter(item => item.active);
+  const typeFilters = filters.filter(item => item.categorie === 'Types');
 
   return (
     <React.Fragment>
       <p>Showing `${mockCofig.jobsFound}` results found</p>
       <FlatButton label="Filters" />
       <ul className="active-filters">{activeFilters.map(item => <li>{item.name}</li>)}</ul>
+      <h3 className="filter-category">TYPE</h3>
+      <ul className="type-filters">{typeFilters.map(item => <li>{item.name}</li>)}</ul>
+      <h3>CATEGORY</h3>
+      <input type="text" />
+      <h3>LOCATION</h3>
+      <input type="text" />
+      <h3>COMPANY</h3>
+      <input type="text" />
     </React.Fragment>
   );
 };

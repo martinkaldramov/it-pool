@@ -12,29 +12,9 @@ ShallowWrapper {
     "simulateEvent": [Function],
     "unmount": [Function],
   },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": "Successful Render",
-    },
-    "ref": null,
-    "rendered": "Successful Render",
-    "type": "p",
-  },
+  Symbol(enzyme.__node__): undefined,
   Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": "Successful Render",
-      },
-      "ref": null,
-      "rendered": "Successful Render",
-      "type": "p",
-    },
+    undefined,
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
