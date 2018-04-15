@@ -1,0 +1,370 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Job should render successfully 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Job
+    jobData={
+        Object {
+            "category": "Web Development",
+            "city": "Sofia",
+            "company": "MODIS BULGARIA",
+            "date": 15,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet facilisis ligula, ac consectetur nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce venenatis condimentum tristique. Quisque volutpat vulputate dolor, id rhoncus erat euismod id. Sed maximus dignissim arcu ac pretium. Curabitur vel ante at nunc sodales consectetur. Proin et porta sem, ac volutpat tellus. Curabitur ipsum lacus, gravida id fermentum id, pellentesque vitae erat.",
+            "experience": "Solid",
+            "skills": Array [
+              "React.JS",
+              "Angular.io",
+              "DevOps",
+              "ExpressJS",
+              "Google Firebase",
+            ],
+            "title": "Proofreading/light editing of a legal document translated from Japanese to English",
+            "type": "Full Time",
+            "views": 236,
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <CardHeader
+          avatar={null}
+          subtitle="
+        MODIS BULGARIA 
+        236
+        Sofia 
+        Full Time 
+        Solid 
+        Web Development
+      "
+          title="Proofreading/light editing of a legal document translated from Japanese to English"
+/>,
+        <CardText>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet facilisis ligula, ac consectetur nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce venenatis condimentum tristique. Quisque volutpat vulputate dolor, id rhoncus erat euismod id. Sed maximus dignissim arcu ac pretium. Curabitur vel ante at nunc sodales consectetur. Proin et porta sem, ac volutpat tellus. Curabitur ipsum lacus, gravida id fermentum id, pellentesque vitae erat.
+          React.JS
+          Angular.io
+          DevOps
+          ExpressJS
+          Google Firebase
+</CardText>,
+        <CardActions>
+          <RaisedButton
+                    disabled={false}
+                    fullWidth={false}
+                    label="Like"
+                    labelPosition="after"
+                    primary={false}
+                    secondary={false}
+          />
+          <RaisedButton
+                    disabled={false}
+                    fullWidth={false}
+                    label="Save"
+                    labelPosition="after"
+                    primary={false}
+                    secondary={false}
+          />
+</CardActions>,
+      ],
+      "expandable": false,
+      "expanded": null,
+      "initiallyExpanded": false,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "avatar": null,
+          "subtitle": "
+        MODIS BULGARIA 
+        236
+        Sofia 
+        Full Time 
+        Solid 
+        Web Development
+      ",
+          "title": "Proofreading/light editing of a legal document translated from Japanese to English",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet facilisis ligula, ac consectetur nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce venenatis condimentum tristique. Quisque volutpat vulputate dolor, id rhoncus erat euismod id. Sed maximus dignissim arcu ac pretium. Curabitur vel ante at nunc sodales consectetur. Proin et porta sem, ac volutpat tellus. Curabitur ipsum lacus, gravida id fermentum id, pellentesque vitae erat.",
+            Array [
+              "React.JS",
+              "Angular.io",
+              "DevOps",
+              "ExpressJS",
+              "Google Firebase",
+            ],
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet facilisis ligula, ac consectetur nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce venenatis condimentum tristique. Quisque volutpat vulputate dolor, id rhoncus erat euismod id. Sed maximus dignissim arcu ac pretium. Curabitur vel ante at nunc sodales consectetur. Proin et porta sem, ac volutpat tellus. Curabitur ipsum lacus, gravida id fermentum id, pellentesque vitae erat.",
+          "React.JS",
+          "Angular.io",
+          "DevOps",
+          "ExpressJS",
+          "Google Firebase",
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <RaisedButton
+              disabled={false}
+              fullWidth={false}
+              label="Like"
+              labelPosition="after"
+              primary={false}
+              secondary={false}
+/>,
+            <RaisedButton
+              disabled={false}
+              fullWidth={false}
+              label="Save"
+              labelPosition="after"
+              primary={false}
+              secondary={false}
+/>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "disabled": false,
+              "fullWidth": false,
+              "label": "Like",
+              "labelPosition": "after",
+              "primary": false,
+              "secondary": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "disabled": false,
+              "fullWidth": false,
+              "label": "Save",
+              "labelPosition": "after",
+              "primary": false,
+              "secondary": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <CardHeader
+            avatar={null}
+            subtitle="
+        MODIS BULGARIA 
+        236
+        Sofia 
+        Full Time 
+        Solid 
+        Web Development
+      "
+            title="Proofreading/light editing of a legal document translated from Japanese to English"
+/>,
+          <CardText>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet facilisis ligula, ac consectetur nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce venenatis condimentum tristique. Quisque volutpat vulputate dolor, id rhoncus erat euismod id. Sed maximus dignissim arcu ac pretium. Curabitur vel ante at nunc sodales consectetur. Proin et porta sem, ac volutpat tellus. Curabitur ipsum lacus, gravida id fermentum id, pellentesque vitae erat.
+            React.JS
+            Angular.io
+            DevOps
+            ExpressJS
+            Google Firebase
+</CardText>,
+          <CardActions>
+            <RaisedButton
+                        disabled={false}
+                        fullWidth={false}
+                        label="Like"
+                        labelPosition="after"
+                        primary={false}
+                        secondary={false}
+            />
+            <RaisedButton
+                        disabled={false}
+                        fullWidth={false}
+                        label="Save"
+                        labelPosition="after"
+                        primary={false}
+                        secondary={false}
+            />
+</CardActions>,
+        ],
+        "expandable": false,
+        "expanded": null,
+        "initiallyExpanded": false,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "avatar": null,
+            "subtitle": "
+        MODIS BULGARIA 
+        236
+        Sofia 
+        Full Time 
+        Solid 
+        Web Development
+      ",
+            "title": "Proofreading/light editing of a legal document translated from Japanese to English",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet facilisis ligula, ac consectetur nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce venenatis condimentum tristique. Quisque volutpat vulputate dolor, id rhoncus erat euismod id. Sed maximus dignissim arcu ac pretium. Curabitur vel ante at nunc sodales consectetur. Proin et porta sem, ac volutpat tellus. Curabitur ipsum lacus, gravida id fermentum id, pellentesque vitae erat.",
+              Array [
+                "React.JS",
+                "Angular.io",
+                "DevOps",
+                "ExpressJS",
+                "Google Firebase",
+              ],
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet facilisis ligula, ac consectetur nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce venenatis condimentum tristique. Quisque volutpat vulputate dolor, id rhoncus erat euismod id. Sed maximus dignissim arcu ac pretium. Curabitur vel ante at nunc sodales consectetur. Proin et porta sem, ac volutpat tellus. Curabitur ipsum lacus, gravida id fermentum id, pellentesque vitae erat.",
+            "React.JS",
+            "Angular.io",
+            "DevOps",
+            "ExpressJS",
+            "Google Firebase",
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <RaisedButton
+                disabled={false}
+                fullWidth={false}
+                label="Like"
+                labelPosition="after"
+                primary={false}
+                secondary={false}
+/>,
+              <RaisedButton
+                disabled={false}
+                fullWidth={false}
+                label="Save"
+                labelPosition="after"
+                primary={false}
+                secondary={false}
+/>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "disabled": false,
+                "fullWidth": false,
+                "label": "Like",
+                "labelPosition": "after",
+                "primary": false,
+                "secondary": false,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "disabled": false,
+                "fullWidth": false,
+                "label": "Save",
+                "labelPosition": "after",
+                "primary": false,
+                "secondary": false,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
