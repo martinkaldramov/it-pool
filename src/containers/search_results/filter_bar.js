@@ -3,18 +3,30 @@ import * as React from 'react';
 // Material UI imports
 import FlatButton from 'material-ui/FlatButton';
 
-import ActiveFilters from './active_filters';
-import StaticFilters from './static_filters';
-import InputFilters from './input_filters';
+type Filter = {
+  name: string,
+  categorie: string,
+  active: boolean,
+};
 
 const mockCofig = {
   jobsFound: 286542,
 };
 
-const filters: { name: string, categorie: string, active: boolean }[] = [
+const filters: Filter[] = [
   {
-    name: 'Any Type',
-    categorie: 'Types',
+    name: '100+',
+    categorie: 'Vews',
+    active: true,
+  },
+  {
+    name: '< 100',
+    categorie: 'Applications',
+    active: true,
+  },
+  {
+    name: 'This week',
+    categorie: 'Posted',
     active: true,
   },
   {
@@ -23,20 +35,32 @@ const filters: { name: string, categorie: string, active: boolean }[] = [
     active: true,
   },
   {
+    name: 'Expert',
+    categorie: 'Experience',
+    active: true,
+  },
+  {
+    name: 'Beginner',
+    categorie: 'Experience',
+    active: false,
+  },
+  {
     name: 'Any Type',
     categorie: 'Types',
     active: true,
   },
 ];
 
-const FilterBar = () => (
-  <React.Fragment>
-    <p>Showing `${mockCofig.jobsFound}` results found</p>
-    <FlatButton label="Filters" />
-    <ActiveFilters filters={filters} />
-    <StaticFilters filters={filters} />
-    <InputFilters filters={filters} />
-  </React.Fragment>
-);
+const FilterBar = () => {
+  const activeFilters = filters.filter(item => item.active);
+
+  return (
+    <React.Fragment>
+      <p>Showing `${mockCofig.jobsFound}` results found</p>
+      <FlatButton label="Filters" />
+      <ul className="active-filters">{activeFilters.map(item => <li>{item.name}</li>)}</ul>
+    </React.Fragment>
+  );
+};
 
 export default FilterBar;
