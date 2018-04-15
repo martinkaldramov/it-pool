@@ -6,6 +6,6 @@ describe('InputFilters', () => {
   const wrap = shallow(<StaticFilters />);
 
   it('should render successfully', () => {
-    expect(wrap).toMatchSnapshot;
+    expect(wrap).toMatchSnapshot();
   });
 });

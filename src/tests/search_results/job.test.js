@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import InputFilters from '../../containers/search_results/input_filters';
+import Job from '../../components/search_results/job';
 
-describe('InputFilters', () => {
-  const wrap = shallow(<InputFilters />);
+describe('Job', () => {
+  const wrap = shallow(<Job />);
 
   it('should render successfully', () => {
     expect(wrap).toMatchSnapshot();
