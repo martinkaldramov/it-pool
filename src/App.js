@@ -1,17 +1,21 @@
 // @flow
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-
 import React from 'react';
 // import logo from './logo.svg';
-import './App.css';
+import { Switch, Route } from 'react-router-dom';
 
+import './App.css';
 import ApplicationBar from './containers/app_bar';
 import SearchBar from './containers/search_bar';
+import SearchResults from './containers/search_results/search_results';
 
 const App = () => (
   <MuiThemeProvider>
     <ApplicationBar />
-    <SearchBar />
+    <Switch>
+      <Route exact path="/" component={SearchBar} />
+      <Route exact path="/search-results" component={SearchResults} />
+    </Switch>
   </MuiThemeProvider>
 );
 
