@@ -11,7 +11,6 @@ import App from './App';
 injectTapEventPlugin();
 
 ReactDOM.render(
-  // eslint-disable-line no-use-before-define
   <Router>
     <Route path="/" component={App} />
   </Router>,
