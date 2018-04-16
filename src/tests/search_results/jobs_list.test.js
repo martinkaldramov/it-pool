@@ -8,4 +8,8 @@ describe('JobsList', () => {
   it('should render successfully', () => {
     expect(wrap).toMatchSnapshot();
   });
+
+  it('should have 3 children', () => {
+    expect(wrap.children).toBe(3);
+  });
 });

@@ -19,7 +19,18 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <ApplicationBar />,
-        <SearchBar />,
+        <Switch>
+          <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/"
+          />
+          <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/search-results"
+          />
+</Switch>,
       ],
     },
     "ref": null,
@@ -36,10 +47,50 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
-        "props": Object {},
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/"
+/>,
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/search-results"
+/>,
+          ],
+        },
         "ref": null,
-        "rendered": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "exact": true,
+              "path": "/",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "exact": true,
+              "path": "/search-results",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
         "type": [Function],
       },
     ],
@@ -53,7 +104,18 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <ApplicationBar />,
-          <SearchBar />,
+          <Switch>
+            <Route
+                        component={[Function]}
+                        exact={true}
+                        path="/"
+            />
+            <Route
+                        component={[Function]}
+                        exact={true}
+                        path="/search-results"
+            />
+</Switch>,
         ],
       },
       "ref": null,
@@ -70,10 +132,50 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/"
+/>,
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/search-results"
+/>,
+            ],
+          },
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "exact": true,
+                "path": "/",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "exact": true,
+                "path": "/search-results",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": [Function],
         },
       ],
