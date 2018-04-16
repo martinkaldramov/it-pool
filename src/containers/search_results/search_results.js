@@ -1,8 +1,9 @@
-import React from 'react';
+// @flow
+import * as React from 'react';
 import FilterBar from './filter_bar';
 import JobsList from './jobs_list';
 
-const SearchResults = () => (
+const SearchResults = (): React.Node => (
   <React.Fragment>
     <FilterBar />
     <JobsList />
