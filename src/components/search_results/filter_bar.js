@@ -15,38 +15,128 @@ const mockCofig = {
 
 const filters: Filter[] = [
   {
-    name: '100+',
-    categorie: 'Vews',
+    name: 'Any type',
+    categorie: 'type',
     active: true,
   },
   {
-    name: '< 100',
-    categorie: 'Applications',
+    name: 'Full Time',
+    categorie: 'type',
     active: true,
   },
   {
-    name: 'This week',
-    categorie: 'Posted',
+    name: 'Part Time',
+    categorie: 'type',
     active: true,
   },
   {
-    name: 'Intemediate',
-    categorie: 'Experience',
+    name: 'Intership',
+    categorie: 'type',
+    active: true,
+  },
+  {
+    name: 'Contract',
+    categorie: 'type',
+    active: true,
+  },
+  {
+    name: 'Remote',
+    categorie: 'type',
+    active: true,
+  },
+  {
+    name: 'Any experience',
+    categorie: 'experience',
+    active: true,
+  },
+  {
+    name: 'Beginner',
+    categorie: 'experience',
+    active: true,
+  },
+  {
+    name: 'Intermediate',
+    categorie: 'experience',
     active: true,
   },
   {
     name: 'Expert',
-    categorie: 'Experience',
-    active: false,
+    categorie: 'experience',
+    active: true,
   },
   {
-    name: 'Beginner',
-    categorie: 'Experience',
-    active: false,
+    name: 'Any Views',
+    categorie: 'vews',
+    active: true,
   },
   {
-    name: 'Any Type',
-    categorie: 'Types',
+    name: '< 100',
+    categorie: 'vews',
+    active: true,
+  },
+  {
+    name: '< 300',
+    categorie: 'vews',
+    active: true,
+  },
+  {
+    name: '< 600',
+    categorie: 'vews',
+    active: true,
+  },
+  {
+    name: '< 1000',
+    categorie: 'vews',
+    active: true,
+  },
+  {
+    name: '1000+',
+    categorie: 'vews',
+    active: true,
+  },
+  {
+    name: 'Any Number',
+    categorie: 'applications',
+    active: true,
+  },
+  {
+    name: '< 50',
+    categorie: 'applications',
+    active: true,
+  },
+  {
+    name: '< 100',
+    categorie: 'applications',
+    active: true,
+  },
+  {
+    name: '100+',
+    categorie: 'applications',
+    active: true,
+  },
+  {
+    name: 'Any Time',
+    categorie: 'date_posted',
+    active: true,
+  },
+  {
+    name: 'Today',
+    categorie: 'date_posted',
+    active: true,
+  },
+  {
+    name: 'Lat 3 days',
+    categorie: 'date_posted',
+    active: true,
+  },
+  {
+    name: 'This week',
+    categorie: 'date_posted',
+    active: true,
+  },
+  {
+    name: 'This month',
+    categorie: 'date_posted',
     active: true,
   },
 ];
