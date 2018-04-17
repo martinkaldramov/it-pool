@@ -2,6 +2,7 @@
 import * as React from 'react';
 // Material UI imports
 import FlatButton from 'material-ui/FlatButton';
+import RaisedButton from 'material-ui/RaisedButton';
 
 type Filter = {
   name: string,
@@ -156,13 +157,13 @@ const FilterBar = () => {
       <ul className="active-filters">{activeFilters.map(item => <li>{item.name}</li>)}</ul>
       <h3 className="filter-category">TYPE</h3>
       <ul className="type-filters">{typeFilters.map(item => <li>{item.name}</li>)}</ul>
-      <h3 className="filter-category">TYPE</h3>
+      <h3 className="filter-category">EXPERIENCE</h3>
       <ul className="type-filters">{experienceFilters.map(item => <li>{item.name}</li>)}</ul>
-      <h3 className="filter-category">TYPE</h3>
+      <h3 className="filter-category">VIES</h3>
       <ul className="type-filters">{viewsFilters.map(item => <li>{item.name}</li>)}</ul>
-      <h3 className="filter-category">TYPE</h3>
+      <h3 className="filter-category">APPLICATIONS</h3>
       <ul className="type-filters">{applicationsFilters.map(item => <li>{item.name}</li>)}</ul>
-      <h3 className="filter-category">TYPE</h3>
+      <h3 className="filter-category">DATE POSTED</h3>
       <ul className="type-filters">{datePostedFilters.map(item => <li>{item.name}</li>)}</ul>
       <h3>CATEGORY</h3>
       <input type="text" />
@@ -170,6 +171,7 @@ const FilterBar = () => {
       <input type="text" />
       <h3>COMPANY</h3>
       <input type="text" />
+      <RaisedButton label="Close Filters" />
     </React.Fragment>
   );
 };
