@@ -5,7 +5,7 @@ import FlatButton from 'material-ui/FlatButton';
 import { withRouter } from 'react-router-dom';
 
 type Props = {
-  history: {},
+  history: any,
 };
 
 const SearchBar = ({ history }: Props): React.Node => (
