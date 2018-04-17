@@ -17,7 +17,7 @@ const filters: Filter[] = [
   {
     name: 'Any type',
     categorie: 'type',
-    active: true,
+    active: false,
   },
   {
     name: 'Full Time',
@@ -27,7 +27,7 @@ const filters: Filter[] = [
   {
     name: 'Part Time',
     categorie: 'type',
-    active: true,
+    active: false,
   },
   {
     name: 'Intership',
@@ -37,22 +37,22 @@ const filters: Filter[] = [
   {
     name: 'Contract',
     categorie: 'type',
-    active: true,
+    active: false,
   },
   {
     name: 'Remote',
     categorie: 'type',
-    active: true,
+    active: false,
   },
   {
     name: 'Any experience',
     categorie: 'experience',
-    active: true,
+    active: false,
   },
   {
     name: 'Beginner',
     categorie: 'experience',
-    active: true,
+    active: false,
   },
   {
     name: 'Intermediate',
@@ -67,12 +67,12 @@ const filters: Filter[] = [
   {
     name: 'Any Views',
     categorie: 'vews',
-    active: true,
+    active: false,
   },
   {
     name: '< 100',
     categorie: 'vews',
-    active: true,
+    active: false,
   },
   {
     name: '< 300',
@@ -82,27 +82,27 @@ const filters: Filter[] = [
   {
     name: '< 600',
     categorie: 'vews',
-    active: true,
+    active: false,
   },
   {
     name: '< 1000',
     categorie: 'vews',
-    active: true,
+    active: false,
   },
   {
     name: '1000+',
     categorie: 'vews',
-    active: true,
+    active: false,
   },
   {
     name: 'Any Number',
     categorie: 'applications',
-    active: true,
+    active: false,
   },
   {
     name: '< 50',
     categorie: 'applications',
-    active: true,
+    active: false,
   },
   {
     name: '< 100',
@@ -112,12 +112,12 @@ const filters: Filter[] = [
   {
     name: '100+',
     categorie: 'applications',
-    active: true,
+    active: false,
   },
   {
     name: 'Any Time',
     categorie: 'date_posted',
-    active: true,
+    active: false,
   },
   {
     name: 'Today',
@@ -127,23 +127,27 @@ const filters: Filter[] = [
   {
     name: 'Lat 3 days',
     categorie: 'date_posted',
-    active: true,
+    active: false,
   },
   {
     name: 'This week',
     categorie: 'date_posted',
-    active: true,
+    active: false,
   },
   {
     name: 'This month',
     categorie: 'date_posted',
-    active: true,
+    active: false,
   },
 ];
 
 const FilterBar = () => {
   const activeFilters = filters.filter(item => item.active);
-  const typeFilters = filters.filter(item => item.categorie === 'Types');
+  const typeFilters = filters.filter(item => item.categorie === 'type');
+  const experienceFilters = filters.filter(item => item.categorie === 'experience');
+  const viewsFilters = filters.filter(item => item.categorie === 'vews');
+  const applicationsFilters = filters.filter(item => item.categorie === 'applications');
+  const datePostedFilters = filters.filter(item => item.categorie === 'date_posted');
 
   return (
     <React.Fragment>
@@ -152,6 +156,14 @@ const FilterBar = () => {
       <ul className="active-filters">{activeFilters.map(item => <li>{item.name}</li>)}</ul>
       <h3 className="filter-category">TYPE</h3>
       <ul className="type-filters">{typeFilters.map(item => <li>{item.name}</li>)}</ul>
+      <h3 className="filter-category">TYPE</h3>
+      <ul className="type-filters">{experienceFilters.map(item => <li>{item.name}</li>)}</ul>
+      <h3 className="filter-category">TYPE</h3>
+      <ul className="type-filters">{viewsFilters.map(item => <li>{item.name}</li>)}</ul>
+      <h3 className="filter-category">TYPE</h3>
+      <ul className="type-filters">{applicationsFilters.map(item => <li>{item.name}</li>)}</ul>
+      <h3 className="filter-category">TYPE</h3>
+      <ul className="type-filters">{datePostedFilters.map(item => <li>{item.name}</li>)}</ul>
       <h3>CATEGORY</h3>
       <input type="text" />
       <h3>LOCATION</h3>

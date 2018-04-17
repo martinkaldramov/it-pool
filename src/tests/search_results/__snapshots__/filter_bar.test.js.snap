@@ -19,9 +19,9 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <p>
-          Showing \`$
+          Showing 
           286542
-          \` results found
+           results found
 </p>,
         <FlatButton
           disabled={false}
@@ -40,19 +40,25 @@ ShallowWrapper {
           className="active-filters"
 >
           <li>
-                    100+
+                    Full Time
+          </li>
+          <li>
+                    Intership
+          </li>
+          <li>
+                    Intermediate
+          </li>
+          <li>
+                    Expert
+          </li>
+          <li>
+                    &lt; 300
           </li>
           <li>
                     &lt; 100
           </li>
           <li>
-                    This week
-          </li>
-          <li>
-                    Intemediate
-          </li>
-          <li>
-                    Any Type
+                    Today
           </li>
 </ul>,
         <h3
@@ -64,7 +70,22 @@ ShallowWrapper {
           className="type-filters"
 >
           <li>
-                    Any Type
+                    Any type
+          </li>
+          <li>
+                    Full Time
+          </li>
+          <li>
+                    Part Time
+          </li>
+          <li>
+                    Intership
+          </li>
+          <li>
+                    Contract
+          </li>
+          <li>
+                    Remote
           </li>
 </ul>,
         <h3>
@@ -95,16 +116,16 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            "Showing \`$",
+            "Showing ",
             286542,
-            "\` results found",
+            " results found",
           ],
         },
         "ref": null,
         "rendered": Array [
-          "Showing \`$",
+          "Showing ",
           286542,
-          "\` results found",
+          " results found",
         ],
         "type": "p",
       },
@@ -136,19 +157,25 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <li>
-              100+
+              Full Time
+</li>,
+            <li>
+              Intership
+</li>,
+            <li>
+              Intermediate
+</li>,
+            <li>
+              Expert
+</li>,
+            <li>
+              &lt; 300
 </li>,
             <li>
               &lt; 100
 </li>,
             <li>
-              This week
-</li>,
-            <li>
-              Intemediate
-</li>,
-            <li>
-              Any Type
+              Today
 </li>,
           ],
           "className": "active-filters",
@@ -160,10 +187,54 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "100+",
+              "children": "Full Time",
             },
             "ref": null,
-            "rendered": "100+",
+            "rendered": "Full Time",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Intership",
+            },
+            "ref": null,
+            "rendered": "Intership",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Intermediate",
+            },
+            "ref": null,
+            "rendered": "Intermediate",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Expert",
+            },
+            "ref": null,
+            "rendered": "Expert",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "< 300",
+            },
+            "ref": null,
+            "rendered": "< 300",
             "type": "li",
           },
           Object {
@@ -182,32 +253,10 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "This week",
+              "children": "Today",
             },
             "ref": null,
-            "rendered": "This week",
-            "type": "li",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Intemediate",
-            },
-            "ref": null,
-            "rendered": "Intemediate",
-            "type": "li",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Any Type",
-            },
-            "ref": null,
-            "rendered": "Any Type",
+            "rendered": "Today",
             "type": "li",
           },
         ],
@@ -232,7 +281,22 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <li>
-              Any Type
+              Any type
+</li>,
+            <li>
+              Full Time
+</li>,
+            <li>
+              Part Time
+</li>,
+            <li>
+              Intership
+</li>,
+            <li>
+              Contract
+</li>,
+            <li>
+              Remote
 </li>,
           ],
           "className": "type-filters",
@@ -244,10 +308,65 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Any Type",
+              "children": "Any type",
             },
             "ref": null,
-            "rendered": "Any Type",
+            "rendered": "Any type",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Full Time",
+            },
+            "ref": null,
+            "rendered": "Full Time",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Part Time",
+            },
+            "ref": null,
+            "rendered": "Part Time",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Intership",
+            },
+            "ref": null,
+            "rendered": "Intership",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Contract",
+            },
+            "ref": null,
+            "rendered": "Contract",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Remote",
+            },
+            "ref": null,
+            "rendered": "Remote",
             "type": "li",
           },
         ],
@@ -330,9 +449,9 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <p>
-            Showing \`$
+            Showing 
             286542
-            \` results found
+             results found
 </p>,
           <FlatButton
             disabled={false}
@@ -351,19 +470,25 @@ ShallowWrapper {
             className="active-filters"
 >
             <li>
-                        100+
+                        Full Time
+            </li>
+            <li>
+                        Intership
+            </li>
+            <li>
+                        Intermediate
+            </li>
+            <li>
+                        Expert
+            </li>
+            <li>
+                        &lt; 300
             </li>
             <li>
                         &lt; 100
             </li>
             <li>
-                        This week
-            </li>
-            <li>
-                        Intemediate
-            </li>
-            <li>
-                        Any Type
+                        Today
             </li>
 </ul>,
           <h3
@@ -375,7 +500,22 @@ ShallowWrapper {
             className="type-filters"
 >
             <li>
-                        Any Type
+                        Any type
+            </li>
+            <li>
+                        Full Time
+            </li>
+            <li>
+                        Part Time
+            </li>
+            <li>
+                        Intership
+            </li>
+            <li>
+                        Contract
+            </li>
+            <li>
+                        Remote
             </li>
 </ul>,
           <h3>
@@ -406,16 +546,16 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              "Showing \`$",
+              "Showing ",
               286542,
-              "\` results found",
+              " results found",
             ],
           },
           "ref": null,
           "rendered": Array [
-            "Showing \`$",
+            "Showing ",
             286542,
-            "\` results found",
+            " results found",
           ],
           "type": "p",
         },
@@ -447,19 +587,25 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <li>
-                100+
+                Full Time
+</li>,
+              <li>
+                Intership
+</li>,
+              <li>
+                Intermediate
+</li>,
+              <li>
+                Expert
+</li>,
+              <li>
+                &lt; 300
 </li>,
               <li>
                 &lt; 100
 </li>,
               <li>
-                This week
-</li>,
-              <li>
-                Intemediate
-</li>,
-              <li>
-                Any Type
+                Today
 </li>,
             ],
             "className": "active-filters",
@@ -471,10 +617,54 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "100+",
+                "children": "Full Time",
               },
               "ref": null,
-              "rendered": "100+",
+              "rendered": "Full Time",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Intership",
+              },
+              "ref": null,
+              "rendered": "Intership",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Intermediate",
+              },
+              "ref": null,
+              "rendered": "Intermediate",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Expert",
+              },
+              "ref": null,
+              "rendered": "Expert",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "< 300",
+              },
+              "ref": null,
+              "rendered": "< 300",
               "type": "li",
             },
             Object {
@@ -493,32 +683,10 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "This week",
+                "children": "Today",
               },
               "ref": null,
-              "rendered": "This week",
-              "type": "li",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Intemediate",
-              },
-              "ref": null,
-              "rendered": "Intemediate",
-              "type": "li",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Any Type",
-              },
-              "ref": null,
-              "rendered": "Any Type",
+              "rendered": "Today",
               "type": "li",
             },
           ],
@@ -543,7 +711,22 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <li>
-                Any Type
+                Any type
+</li>,
+              <li>
+                Full Time
+</li>,
+              <li>
+                Part Time
+</li>,
+              <li>
+                Intership
+</li>,
+              <li>
+                Contract
+</li>,
+              <li>
+                Remote
 </li>,
             ],
             "className": "type-filters",
@@ -555,10 +738,65 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Any Type",
+                "children": "Any type",
               },
               "ref": null,
-              "rendered": "Any Type",
+              "rendered": "Any type",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Full Time",
+              },
+              "ref": null,
+              "rendered": "Full Time",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Part Time",
+              },
+              "ref": null,
+              "rendered": "Part Time",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Intership",
+              },
+              "ref": null,
+              "rendered": "Intership",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Contract",
+              },
+              "ref": null,
+              "rendered": "Contract",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Remote",
+              },
+              "ref": null,
+              "rendered": "Remote",
               "type": "li",
             },
           ],
