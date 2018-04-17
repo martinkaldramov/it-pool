@@ -52,9 +52,6 @@ ShallowWrapper {
                     Intemediate
           </li>
           <li>
-                    Expert
-          </li>
-          <li>
                     Any Type
           </li>
 </ul>,
@@ -151,9 +148,6 @@ ShallowWrapper {
               Intemediate
 </li>,
             <li>
-              Expert
-</li>,
-            <li>
               Any Type
 </li>,
           ],
@@ -203,17 +197,6 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": "Intemediate",
-            "type": "li",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Expert",
-            },
-            "ref": null,
-            "rendered": "Expert",
             "type": "li",
           },
           Object {
@@ -380,9 +363,6 @@ ShallowWrapper {
                         Intemediate
             </li>
             <li>
-                        Expert
-            </li>
-            <li>
                         Any Type
             </li>
 </ul>,
@@ -479,9 +459,6 @@ ShallowWrapper {
                 Intemediate
 </li>,
               <li>
-                Expert
-</li>,
-              <li>
                 Any Type
 </li>,
             ],
@@ -531,17 +508,6 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": "Intemediate",
-              "type": "li",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Expert",
-              },
-              "ref": null,
-              "rendered": "Expert",
               "type": "li",
             },
             Object {

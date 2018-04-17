@@ -2,17 +2,17 @@
 
 import * as React from 'react';
 import FlatButton from 'material-ui/FlatButton';
-import createHistory from 'history/createBrowserHistory';
+import { withRouter } from 'react-router-dom';
 
-const history = createHistory();
+type Props = {
+  history: {},
+};
 
-const handleClick = () => history.push('/search-results');
-
-const SearchBar = (): React.Node => (
+const SearchBar = ({ history }: Props): React.Node => (
   <React.Fragment>
     <input type="text" className="search-bar" />
-    <FlatButton label="Search" onClick={handleClick} />
+    <FlatButton label="Search" onClick={() => history.push('/search-results')} />
   </React.Fragment>
 );
 
-export default SearchBar;
+export default withRouter(SearchBar);

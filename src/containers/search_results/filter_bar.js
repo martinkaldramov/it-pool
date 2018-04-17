@@ -37,7 +37,7 @@ const filters: Filter[] = [
   {
     name: 'Expert',
     categorie: 'Experience',
-    active: true,
+    active: false,
   },
   {
     name: 'Beginner',
