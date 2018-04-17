@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import SearchBar from '../containers/search_bar';
+import SearchBar from '../components/search_bar';
 
 describe('SearchBar', () => {
   const wrap = shallow(<SearchBar />);

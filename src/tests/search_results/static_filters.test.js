@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import StaticFilters from '../../containers/search_results/static_filters';
+import StaticFilters from '../../components/search_results/static_filters';
 
 describe('InputFilters', () => {
   const wrap = shallow(<StaticFilters />);

@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import ActiveFiltes from '../../containers/search_results/active_filters';
+import ActiveFiltes from '../../components/search_results/active_filters';
 
 describe('ActiveFilters', () => {
   const wrap = shallow(<ActiveFiltes />);

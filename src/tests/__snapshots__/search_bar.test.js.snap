@@ -4,7 +4,7 @@ exports[`SearchBar should render correctly 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <SearchBar />,
+  Symbol(enzyme.__unrendered__): <withRouter(SearchBar) />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -15,133 +15,25 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "function",
+    "nodeType": "class",
     "props": Object {
-      "children": Array [
-        <input
-          className="search-bar"
-          type="text"
-/>,
-        <FlatButton
-          disabled={false}
-          fullWidth={false}
-          label="Search"
-          labelPosition="after"
-          labelStyle={Object {}}
-          onClick={[Function]}
-          onKeyboardFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          onTouchStart={[Function]}
-          primary={false}
-          secondary={false}
-/>,
-      ],
+      "render": [Function],
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "className": "search-bar",
-          "type": "text",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "input",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "disabled": false,
-          "fullWidth": false,
-          "label": "Search",
-          "labelPosition": "after",
-          "labelStyle": Object {},
-          "onClick": [Function],
-          "onKeyboardFocus": [Function],
-          "onMouseEnter": [Function],
-          "onMouseLeave": [Function],
-          "onTouchStart": [Function],
-          "primary": false,
-          "secondary": false,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
-    "type": Symbol(react.fragment),
+    "rendered": null,
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "function",
+      "nodeType": "class",
       "props": Object {
-        "children": Array [
-          <input
-            className="search-bar"
-            type="text"
-/>,
-          <FlatButton
-            disabled={false}
-            fullWidth={false}
-            label="Search"
-            labelPosition="after"
-            labelStyle={Object {}}
-            onClick={[Function]}
-            onKeyboardFocus={[Function]}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            onTouchStart={[Function]}
-            primary={false}
-            secondary={false}
-/>,
-        ],
+        "render": [Function],
       },
       "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "className": "search-bar",
-            "type": "text",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "input",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "disabled": false,
-            "fullWidth": false,
-            "label": "Search",
-            "labelPosition": "after",
-            "labelStyle": Object {},
-            "onClick": [Function],
-            "onKeyboardFocus": [Function],
-            "onMouseEnter": [Function],
-            "onMouseLeave": [Function],
-            "onTouchStart": [Function],
-            "primary": false,
-            "secondary": false,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-      ],
-      "type": Symbol(react.fragment),
+      "rendered": null,
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {

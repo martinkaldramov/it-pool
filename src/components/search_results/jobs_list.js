@@ -1,6 +1,6 @@
 // @flow
 import * as React from 'react';
-import Job from '../../components/search_results/job';
+import Job from './job';
 
 type job = {
   title: string,

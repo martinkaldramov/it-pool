@@ -5,9 +5,9 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import './App.css';
-import ApplicationBar from './containers/app_bar';
-import SearchBar from './containers/search_bar';
-import SearchResults from './containers/search_results/search_results';
+import ApplicationBar from './components/app_bar';
+import SearchBar from './components/search_bar';
+import SearchResults from './components/search_results/search_results';
 
 const App = () => (
   <MuiThemeProvider>
