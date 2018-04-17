@@ -88,6 +88,99 @@ ShallowWrapper {
                     Remote
           </li>
 </ul>,
+        <h3
+          className="filter-category"
+>
+          TYPE
+</h3>,
+        <ul
+          className="type-filters"
+>
+          <li>
+                    Any experience
+          </li>
+          <li>
+                    Beginner
+          </li>
+          <li>
+                    Intermediate
+          </li>
+          <li>
+                    Expert
+          </li>
+</ul>,
+        <h3
+          className="filter-category"
+>
+          TYPE
+</h3>,
+        <ul
+          className="type-filters"
+>
+          <li>
+                    Any Views
+          </li>
+          <li>
+                    &lt; 100
+          </li>
+          <li>
+                    &lt; 300
+          </li>
+          <li>
+                    &lt; 600
+          </li>
+          <li>
+                    &lt; 1000
+          </li>
+          <li>
+                    1000+
+          </li>
+</ul>,
+        <h3
+          className="filter-category"
+>
+          TYPE
+</h3>,
+        <ul
+          className="type-filters"
+>
+          <li>
+                    Any Number
+          </li>
+          <li>
+                    &lt; 50
+          </li>
+          <li>
+                    &lt; 100
+          </li>
+          <li>
+                    100+
+          </li>
+</ul>,
+        <h3
+          className="filter-category"
+>
+          TYPE
+</h3>,
+        <ul
+          className="type-filters"
+>
+          <li>
+                    Any Time
+          </li>
+          <li>
+                    Today
+          </li>
+          <li>
+                    Lat 3 days
+          </li>
+          <li>
+                    This week
+          </li>
+          <li>
+                    This month
+          </li>
+</ul>,
         <h3>
           CATEGORY
 </h3>,
@@ -377,6 +470,376 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "children": "TYPE",
+          "className": "filter-category",
+        },
+        "ref": null,
+        "rendered": "TYPE",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              Any experience
+</li>,
+            <li>
+              Beginner
+</li>,
+            <li>
+              Intermediate
+</li>,
+            <li>
+              Expert
+</li>,
+          ],
+          "className": "type-filters",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Any experience",
+            },
+            "ref": null,
+            "rendered": "Any experience",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Beginner",
+            },
+            "ref": null,
+            "rendered": "Beginner",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Intermediate",
+            },
+            "ref": null,
+            "rendered": "Intermediate",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Expert",
+            },
+            "ref": null,
+            "rendered": "Expert",
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "TYPE",
+          "className": "filter-category",
+        },
+        "ref": null,
+        "rendered": "TYPE",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              Any Views
+</li>,
+            <li>
+              &lt; 100
+</li>,
+            <li>
+              &lt; 300
+</li>,
+            <li>
+              &lt; 600
+</li>,
+            <li>
+              &lt; 1000
+</li>,
+            <li>
+              1000+
+</li>,
+          ],
+          "className": "type-filters",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Any Views",
+            },
+            "ref": null,
+            "rendered": "Any Views",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "< 100",
+            },
+            "ref": null,
+            "rendered": "< 100",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "< 300",
+            },
+            "ref": null,
+            "rendered": "< 300",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "< 600",
+            },
+            "ref": null,
+            "rendered": "< 600",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "< 1000",
+            },
+            "ref": null,
+            "rendered": "< 1000",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "1000+",
+            },
+            "ref": null,
+            "rendered": "1000+",
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "TYPE",
+          "className": "filter-category",
+        },
+        "ref": null,
+        "rendered": "TYPE",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              Any Number
+</li>,
+            <li>
+              &lt; 50
+</li>,
+            <li>
+              &lt; 100
+</li>,
+            <li>
+              100+
+</li>,
+          ],
+          "className": "type-filters",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Any Number",
+            },
+            "ref": null,
+            "rendered": "Any Number",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "< 50",
+            },
+            "ref": null,
+            "rendered": "< 50",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "< 100",
+            },
+            "ref": null,
+            "rendered": "< 100",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "100+",
+            },
+            "ref": null,
+            "rendered": "100+",
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "TYPE",
+          "className": "filter-category",
+        },
+        "ref": null,
+        "rendered": "TYPE",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              Any Time
+</li>,
+            <li>
+              Today
+</li>,
+            <li>
+              Lat 3 days
+</li>,
+            <li>
+              This week
+</li>,
+            <li>
+              This month
+</li>,
+          ],
+          "className": "type-filters",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Any Time",
+            },
+            "ref": null,
+            "rendered": "Any Time",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Today",
+            },
+            "ref": null,
+            "rendered": "Today",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Lat 3 days",
+            },
+            "ref": null,
+            "rendered": "Lat 3 days",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "This week",
+            },
+            "ref": null,
+            "rendered": "This week",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "This month",
+            },
+            "ref": null,
+            "rendered": "This month",
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
           "children": "CATEGORY",
         },
         "ref": null,
@@ -516,6 +979,99 @@ ShallowWrapper {
             </li>
             <li>
                         Remote
+            </li>
+</ul>,
+          <h3
+            className="filter-category"
+>
+            TYPE
+</h3>,
+          <ul
+            className="type-filters"
+>
+            <li>
+                        Any experience
+            </li>
+            <li>
+                        Beginner
+            </li>
+            <li>
+                        Intermediate
+            </li>
+            <li>
+                        Expert
+            </li>
+</ul>,
+          <h3
+            className="filter-category"
+>
+            TYPE
+</h3>,
+          <ul
+            className="type-filters"
+>
+            <li>
+                        Any Views
+            </li>
+            <li>
+                        &lt; 100
+            </li>
+            <li>
+                        &lt; 300
+            </li>
+            <li>
+                        &lt; 600
+            </li>
+            <li>
+                        &lt; 1000
+            </li>
+            <li>
+                        1000+
+            </li>
+</ul>,
+          <h3
+            className="filter-category"
+>
+            TYPE
+</h3>,
+          <ul
+            className="type-filters"
+>
+            <li>
+                        Any Number
+            </li>
+            <li>
+                        &lt; 50
+            </li>
+            <li>
+                        &lt; 100
+            </li>
+            <li>
+                        100+
+            </li>
+</ul>,
+          <h3
+            className="filter-category"
+>
+            TYPE
+</h3>,
+          <ul
+            className="type-filters"
+>
+            <li>
+                        Any Time
+            </li>
+            <li>
+                        Today
+            </li>
+            <li>
+                        Lat 3 days
+            </li>
+            <li>
+                        This week
+            </li>
+            <li>
+                        This month
             </li>
 </ul>,
           <h3>
@@ -797,6 +1353,376 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": "Remote",
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "TYPE",
+            "className": "filter-category",
+          },
+          "ref": null,
+          "rendered": "TYPE",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                Any experience
+</li>,
+              <li>
+                Beginner
+</li>,
+              <li>
+                Intermediate
+</li>,
+              <li>
+                Expert
+</li>,
+            ],
+            "className": "type-filters",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Any experience",
+              },
+              "ref": null,
+              "rendered": "Any experience",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Beginner",
+              },
+              "ref": null,
+              "rendered": "Beginner",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Intermediate",
+              },
+              "ref": null,
+              "rendered": "Intermediate",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Expert",
+              },
+              "ref": null,
+              "rendered": "Expert",
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "TYPE",
+            "className": "filter-category",
+          },
+          "ref": null,
+          "rendered": "TYPE",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                Any Views
+</li>,
+              <li>
+                &lt; 100
+</li>,
+              <li>
+                &lt; 300
+</li>,
+              <li>
+                &lt; 600
+</li>,
+              <li>
+                &lt; 1000
+</li>,
+              <li>
+                1000+
+</li>,
+            ],
+            "className": "type-filters",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Any Views",
+              },
+              "ref": null,
+              "rendered": "Any Views",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "< 100",
+              },
+              "ref": null,
+              "rendered": "< 100",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "< 300",
+              },
+              "ref": null,
+              "rendered": "< 300",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "< 600",
+              },
+              "ref": null,
+              "rendered": "< 600",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "< 1000",
+              },
+              "ref": null,
+              "rendered": "< 1000",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "1000+",
+              },
+              "ref": null,
+              "rendered": "1000+",
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "TYPE",
+            "className": "filter-category",
+          },
+          "ref": null,
+          "rendered": "TYPE",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                Any Number
+</li>,
+              <li>
+                &lt; 50
+</li>,
+              <li>
+                &lt; 100
+</li>,
+              <li>
+                100+
+</li>,
+            ],
+            "className": "type-filters",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Any Number",
+              },
+              "ref": null,
+              "rendered": "Any Number",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "< 50",
+              },
+              "ref": null,
+              "rendered": "< 50",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "< 100",
+              },
+              "ref": null,
+              "rendered": "< 100",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "100+",
+              },
+              "ref": null,
+              "rendered": "100+",
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "TYPE",
+            "className": "filter-category",
+          },
+          "ref": null,
+          "rendered": "TYPE",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                Any Time
+</li>,
+              <li>
+                Today
+</li>,
+              <li>
+                Lat 3 days
+</li>,
+              <li>
+                This week
+</li>,
+              <li>
+                This month
+</li>,
+            ],
+            "className": "type-filters",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Any Time",
+              },
+              "ref": null,
+              "rendered": "Any Time",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Today",
+              },
+              "ref": null,
+              "rendered": "Today",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Lat 3 days",
+              },
+              "ref": null,
+              "rendered": "Lat 3 days",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "This week",
+              },
+              "ref": null,
+              "rendered": "This week",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "This month",
+              },
+              "ref": null,
+              "rendered": "This month",
               "type": "li",
             },
           ],
