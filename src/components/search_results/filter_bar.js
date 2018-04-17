@@ -57,7 +57,7 @@ const FilterBar = () => {
 
   return (
     <React.Fragment>
-      <p>Showing `${mockCofig.jobsFound}` results found</p>
+      <p>Showing {mockCofig.jobsFound} results found</p>
       <FlatButton label="Filters" />
       <ul className="active-filters">{activeFilters.map(item => <li>{item.name}</li>)}</ul>
       <h3 className="filter-category">TYPE</h3>
