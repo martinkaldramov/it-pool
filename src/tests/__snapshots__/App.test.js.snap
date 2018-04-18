@@ -18,7 +18,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": Array [
-        <ApplicationBar />,
+        <withRouter(ApplicationBar) />,
         <Switch>
           <Route
                     component={[Function]}
@@ -29,6 +29,11 @@ ShallowWrapper {
                     component={[Function]}
                     exact={true}
                     path="/search-results"
+          />
+          <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/home-logged-in"
           />
 </Switch>,
       ],
@@ -60,6 +65,11 @@ ShallowWrapper {
               exact={true}
               path="/search-results"
 />,
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/home-logged-in"
+/>,
           ],
         },
         "ref": null,
@@ -90,6 +100,19 @@ ShallowWrapper {
             "rendered": null,
             "type": [Function],
           },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "exact": true,
+              "path": "/home-logged-in",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
         ],
         "type": [Function],
       },
@@ -103,7 +126,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": Array [
-          <ApplicationBar />,
+          <withRouter(ApplicationBar) />,
           <Switch>
             <Route
                         component={[Function]}
@@ -114,6 +137,11 @@ ShallowWrapper {
                         component={[Function]}
                         exact={true}
                         path="/search-results"
+            />
+            <Route
+                        component={[Function]}
+                        exact={true}
+                        path="/home-logged-in"
             />
 </Switch>,
         ],
@@ -145,6 +173,11 @@ ShallowWrapper {
                 exact={true}
                 path="/search-results"
 />,
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/home-logged-in"
+/>,
             ],
           },
           "ref": null,
@@ -170,6 +203,19 @@ ShallowWrapper {
                 "component": [Function],
                 "exact": true,
                 "path": "/search-results",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "exact": true,
+                "path": "/home-logged-in",
               },
               "ref": null,
               "rendered": null,

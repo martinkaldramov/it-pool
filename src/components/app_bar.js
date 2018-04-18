@@ -3,6 +3,7 @@ import * as React from 'react';
 import AppBar from 'material-ui/AppBar';
 import RaisedButton from 'material-ui/RaisedButton';
 import FlatButton from 'material-ui/FlatButton';
+import { withRouter } from 'react-router-dom';
 
 const styles = {
   title: {
@@ -10,17 +11,25 @@ const styles = {
   },
 };
 
+type Props = {
+  history: any,
+};
+
 /**
  * This example uses an [IconButton](/#/components/icon-button) on the left, has a clickable `title`
  * through the `onClick` property, and a [FlatButton](/#/components/flat-button) on the right.
  */
-const ApplicationBar = (): React.Node => (
+const ApplicationBar = ({ history }: Props): React.Node => (
   <AppBar
     showMenuIconButton={false}
     title={<span style={styles.title}>IT Pool</span>}
     iconElementRight={
       <React.Fragment>
-        <FlatButton className="sign-in" label="Log In" />
+        <FlatButton
+          className="sign-in"
+          label="Log In"
+          onClick={() => history.push('/home-logged-in')}
+        />
         <RaisedButton className="sign-up" label="Sign Up" />
         <RaisedButton className="post-a-job" label="Post a Job" />
       </React.Fragment>
@@ -28,4 +37,4 @@ const ApplicationBar = (): React.Node => (
   />
 );
 
-export default ApplicationBar;
+export default withRouter(ApplicationBar);

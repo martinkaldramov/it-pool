@@ -5,7 +5,7 @@ import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
 
 const SideMenu = (): React.Node => (
-  <Drawer>
+  <Drawer docked>
     <MenuItem>Home</MenuItem>
     <Divider />
     <MenuItem>My Applications</MenuItem>

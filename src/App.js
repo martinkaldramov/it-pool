@@ -8,6 +8,7 @@ import './App.css';
 import ApplicationBar from './components/app_bar';
 import SearchBar from './components/search_bar';
 import SearchResults from './components/search_results/search_results';
+import HomeLoggedIn from './components/home_logged_in/home_logged_in';
 
 const App = () => (
   <MuiThemeProvider>
@@ -15,6 +16,7 @@ const App = () => (
     <Switch>
       <Route exact path="/" component={SearchBar} />
       <Route exact path="/search-results" component={SearchResults} />
+      <Route exact path="/home-logged-in" component={HomeLoggedIn} />
     </Switch>
   </MuiThemeProvider>
 );
