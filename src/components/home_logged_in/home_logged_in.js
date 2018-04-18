@@ -1,6 +1,6 @@
 // @flow
 import * as React from 'react';
-import SideMenu from './side_menu';
+import SideMenu from '../reusable/side_menu';
 import JobsList from '../reusable/jobs_list';
 
 const HomeLoggedIn = (): React.Node => (

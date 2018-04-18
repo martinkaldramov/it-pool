@@ -1,0 +1,933 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideMenu should render successfully 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SideMenu />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <MenuItem
+          anchorOrigin={
+                    Object {
+                              "horizontal": "right",
+                              "vertical": "top",
+                            }
+          }
+          checked={false}
+          desktop={false}
+          disabled={false}
+          focusState="none"
+          insetChildren={false}
+          targetOrigin={
+                    Object {
+                              "horizontal": "left",
+                              "vertical": "top",
+                            }
+          }
+>
+          <ActionHome />
+          Home
+</MenuItem>,
+        <Divider
+          inset={false}
+/>,
+        <MenuItem
+          anchorOrigin={
+                    Object {
+                              "horizontal": "right",
+                              "vertical": "top",
+                            }
+          }
+          checked={false}
+          desktop={false}
+          disabled={false}
+          focusState="none"
+          insetChildren={false}
+          targetOrigin={
+                    Object {
+                              "horizontal": "left",
+                              "vertical": "top",
+                            }
+          }
+>
+          <NotificationEventNote />
+          My Applications
+</MenuItem>,
+        <MenuItem
+          anchorOrigin={
+                    Object {
+                              "horizontal": "right",
+                              "vertical": "top",
+                            }
+          }
+          checked={false}
+          desktop={false}
+          disabled={false}
+          focusState="none"
+          insetChildren={false}
+          targetOrigin={
+                    Object {
+                              "horizontal": "left",
+                              "vertical": "top",
+                            }
+          }
+>
+          <ActionEvent />
+          My Proposals
+</MenuItem>,
+        <MenuItem
+          anchorOrigin={
+                    Object {
+                              "horizontal": "right",
+                              "vertical": "top",
+                            }
+          }
+          checked={false}
+          desktop={false}
+          disabled={false}
+          focusState="none"
+          insetChildren={false}
+          targetOrigin={
+                    Object {
+                              "horizontal": "left",
+                              "vertical": "top",
+                            }
+          }
+>
+          <ContentSave />
+          Saved Jobs
+</MenuItem>,
+        <MenuItem
+          anchorOrigin={
+                    Object {
+                              "horizontal": "right",
+                              "vertical": "top",
+                            }
+          }
+          checked={false}
+          desktop={false}
+          disabled={false}
+          focusState="none"
+          insetChildren={false}
+          targetOrigin={
+                    Object {
+                              "horizontal": "left",
+                              "vertical": "top",
+                            }
+          }
+>
+          <ActionSearch />
+          Saved Searches
+</MenuItem>,
+        <MenuItem
+          anchorOrigin={
+                    Object {
+                              "horizontal": "right",
+                              "vertical": "top",
+                            }
+          }
+          checked={false}
+          desktop={false}
+          disabled={false}
+          focusState="none"
+          insetChildren={false}
+          targetOrigin={
+                    Object {
+                              "horizontal": "left",
+                              "vertical": "top",
+                            }
+          }
+>
+          <SocialWhatshot />
+          Popular Jobs
+</MenuItem>,
+        <MenuItem
+          anchorOrigin={
+                    Object {
+                              "horizontal": "right",
+                              "vertical": "top",
+                            }
+          }
+          checked={false}
+          desktop={false}
+          disabled={false}
+          focusState="none"
+          insetChildren={false}
+          targetOrigin={
+                    Object {
+                              "horizontal": "left",
+                              "vertical": "top",
+                            }
+          }
+>
+          <ActionExplore />
+          Browse Categories
+</MenuItem>,
+      ],
+      "disableSwipeToOpen": false,
+      "docked": true,
+      "open": null,
+      "openSecondary": false,
+      "swipeAreaWidth": 30,
+      "width": null,
+      "zDepth": 2,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "anchorOrigin": Object {
+            "horizontal": "right",
+            "vertical": "top",
+          },
+          "checked": false,
+          "children": Array [
+            <ActionHome />,
+            "Home",
+          ],
+          "desktop": false,
+          "disabled": false,
+          "focusState": "none",
+          "insetChildren": false,
+          "targetOrigin": Object {
+            "horizontal": "left",
+            "vertical": "top",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "Home",
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "inset": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "anchorOrigin": Object {
+            "horizontal": "right",
+            "vertical": "top",
+          },
+          "checked": false,
+          "children": Array [
+            <NotificationEventNote />,
+            "My Applications",
+          ],
+          "desktop": false,
+          "disabled": false,
+          "focusState": "none",
+          "insetChildren": false,
+          "targetOrigin": Object {
+            "horizontal": "left",
+            "vertical": "top",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "My Applications",
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "anchorOrigin": Object {
+            "horizontal": "right",
+            "vertical": "top",
+          },
+          "checked": false,
+          "children": Array [
+            <ActionEvent />,
+            "My Proposals",
+          ],
+          "desktop": false,
+          "disabled": false,
+          "focusState": "none",
+          "insetChildren": false,
+          "targetOrigin": Object {
+            "horizontal": "left",
+            "vertical": "top",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "My Proposals",
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "anchorOrigin": Object {
+            "horizontal": "right",
+            "vertical": "top",
+          },
+          "checked": false,
+          "children": Array [
+            <ContentSave />,
+            "Saved Jobs",
+          ],
+          "desktop": false,
+          "disabled": false,
+          "focusState": "none",
+          "insetChildren": false,
+          "targetOrigin": Object {
+            "horizontal": "left",
+            "vertical": "top",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "Saved Jobs",
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "anchorOrigin": Object {
+            "horizontal": "right",
+            "vertical": "top",
+          },
+          "checked": false,
+          "children": Array [
+            <ActionSearch />,
+            "Saved Searches",
+          ],
+          "desktop": false,
+          "disabled": false,
+          "focusState": "none",
+          "insetChildren": false,
+          "targetOrigin": Object {
+            "horizontal": "left",
+            "vertical": "top",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "Saved Searches",
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "anchorOrigin": Object {
+            "horizontal": "right",
+            "vertical": "top",
+          },
+          "checked": false,
+          "children": Array [
+            <SocialWhatshot />,
+            "Popular Jobs",
+          ],
+          "desktop": false,
+          "disabled": false,
+          "focusState": "none",
+          "insetChildren": false,
+          "targetOrigin": Object {
+            "horizontal": "left",
+            "vertical": "top",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "Popular Jobs",
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "anchorOrigin": Object {
+            "horizontal": "right",
+            "vertical": "top",
+          },
+          "checked": false,
+          "children": Array [
+            <ActionExplore />,
+            "Browse Categories",
+          ],
+          "desktop": false,
+          "disabled": false,
+          "focusState": "none",
+          "insetChildren": false,
+          "targetOrigin": Object {
+            "horizontal": "left",
+            "vertical": "top",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "Browse Categories",
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <MenuItem
+            anchorOrigin={
+                        Object {
+                                    "horizontal": "right",
+                                    "vertical": "top",
+                                  }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            targetOrigin={
+                        Object {
+                                    "horizontal": "left",
+                                    "vertical": "top",
+                                  }
+            }
+>
+            <ActionHome />
+            Home
+</MenuItem>,
+          <Divider
+            inset={false}
+/>,
+          <MenuItem
+            anchorOrigin={
+                        Object {
+                                    "horizontal": "right",
+                                    "vertical": "top",
+                                  }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            targetOrigin={
+                        Object {
+                                    "horizontal": "left",
+                                    "vertical": "top",
+                                  }
+            }
+>
+            <NotificationEventNote />
+            My Applications
+</MenuItem>,
+          <MenuItem
+            anchorOrigin={
+                        Object {
+                                    "horizontal": "right",
+                                    "vertical": "top",
+                                  }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            targetOrigin={
+                        Object {
+                                    "horizontal": "left",
+                                    "vertical": "top",
+                                  }
+            }
+>
+            <ActionEvent />
+            My Proposals
+</MenuItem>,
+          <MenuItem
+            anchorOrigin={
+                        Object {
+                                    "horizontal": "right",
+                                    "vertical": "top",
+                                  }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            targetOrigin={
+                        Object {
+                                    "horizontal": "left",
+                                    "vertical": "top",
+                                  }
+            }
+>
+            <ContentSave />
+            Saved Jobs
+</MenuItem>,
+          <MenuItem
+            anchorOrigin={
+                        Object {
+                                    "horizontal": "right",
+                                    "vertical": "top",
+                                  }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            targetOrigin={
+                        Object {
+                                    "horizontal": "left",
+                                    "vertical": "top",
+                                  }
+            }
+>
+            <ActionSearch />
+            Saved Searches
+</MenuItem>,
+          <MenuItem
+            anchorOrigin={
+                        Object {
+                                    "horizontal": "right",
+                                    "vertical": "top",
+                                  }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            targetOrigin={
+                        Object {
+                                    "horizontal": "left",
+                                    "vertical": "top",
+                                  }
+            }
+>
+            <SocialWhatshot />
+            Popular Jobs
+</MenuItem>,
+          <MenuItem
+            anchorOrigin={
+                        Object {
+                                    "horizontal": "right",
+                                    "vertical": "top",
+                                  }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            targetOrigin={
+                        Object {
+                                    "horizontal": "left",
+                                    "vertical": "top",
+                                  }
+            }
+>
+            <ActionExplore />
+            Browse Categories
+</MenuItem>,
+        ],
+        "disableSwipeToOpen": false,
+        "docked": true,
+        "open": null,
+        "openSecondary": false,
+        "swipeAreaWidth": 30,
+        "width": null,
+        "zDepth": 2,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "anchorOrigin": Object {
+              "horizontal": "right",
+              "vertical": "top",
+            },
+            "checked": false,
+            "children": Array [
+              <ActionHome />,
+              "Home",
+            ],
+            "desktop": false,
+            "disabled": false,
+            "focusState": "none",
+            "insetChildren": false,
+            "targetOrigin": Object {
+              "horizontal": "left",
+              "vertical": "top",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "Home",
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "inset": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "anchorOrigin": Object {
+              "horizontal": "right",
+              "vertical": "top",
+            },
+            "checked": false,
+            "children": Array [
+              <NotificationEventNote />,
+              "My Applications",
+            ],
+            "desktop": false,
+            "disabled": false,
+            "focusState": "none",
+            "insetChildren": false,
+            "targetOrigin": Object {
+              "horizontal": "left",
+              "vertical": "top",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "My Applications",
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "anchorOrigin": Object {
+              "horizontal": "right",
+              "vertical": "top",
+            },
+            "checked": false,
+            "children": Array [
+              <ActionEvent />,
+              "My Proposals",
+            ],
+            "desktop": false,
+            "disabled": false,
+            "focusState": "none",
+            "insetChildren": false,
+            "targetOrigin": Object {
+              "horizontal": "left",
+              "vertical": "top",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "My Proposals",
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "anchorOrigin": Object {
+              "horizontal": "right",
+              "vertical": "top",
+            },
+            "checked": false,
+            "children": Array [
+              <ContentSave />,
+              "Saved Jobs",
+            ],
+            "desktop": false,
+            "disabled": false,
+            "focusState": "none",
+            "insetChildren": false,
+            "targetOrigin": Object {
+              "horizontal": "left",
+              "vertical": "top",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "Saved Jobs",
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "anchorOrigin": Object {
+              "horizontal": "right",
+              "vertical": "top",
+            },
+            "checked": false,
+            "children": Array [
+              <ActionSearch />,
+              "Saved Searches",
+            ],
+            "desktop": false,
+            "disabled": false,
+            "focusState": "none",
+            "insetChildren": false,
+            "targetOrigin": Object {
+              "horizontal": "left",
+              "vertical": "top",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "Saved Searches",
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "anchorOrigin": Object {
+              "horizontal": "right",
+              "vertical": "top",
+            },
+            "checked": false,
+            "children": Array [
+              <SocialWhatshot />,
+              "Popular Jobs",
+            ],
+            "desktop": false,
+            "disabled": false,
+            "focusState": "none",
+            "insetChildren": false,
+            "targetOrigin": Object {
+              "horizontal": "left",
+              "vertical": "top",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "Popular Jobs",
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "anchorOrigin": Object {
+              "horizontal": "right",
+              "vertical": "top",
+            },
+            "checked": false,
+            "children": Array [
+              <ActionExplore />,
+              "Browse Categories",
+            ],
+            "desktop": false,
+            "disabled": false,
+            "focusState": "none",
+            "insetChildren": false,
+            "targetOrigin": Object {
+              "horizontal": "left",
+              "vertical": "top",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "Browse Categories",
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

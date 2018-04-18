@@ -27,7 +27,7 @@ const ApplicationBar = ({ history }: Props): React.Node => (
       <React.Fragment>
         <FlatButton
           className="sign-in"
-          label="Log In"
+          label="Sign In"
           onClick={() => history.push('/home-logged-in')}
         />
         <RaisedButton className="sign-up" label="Sign Up" />
