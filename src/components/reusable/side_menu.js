@@ -15,6 +15,7 @@ const SideMenu = (): React.Node => (
     </MenuItem>
     <Divider />
     <StaticMenuItems />
+    <Divider />
   </Drawer>
 );
 

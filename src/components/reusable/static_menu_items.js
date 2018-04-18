@@ -10,6 +10,7 @@ import ActionExplore from 'material-ui/svg-icons/action/explore';
 
 const StaticMenuItems = () => (
   <React.Fragment>
+    <MenuItem>FIND JOBS</MenuItem>
     <MenuItem>
       <NotificationEventNote />My Applications
     </MenuItem>
