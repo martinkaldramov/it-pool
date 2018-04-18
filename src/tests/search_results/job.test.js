@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Job from '../../components/search_results/job';
+import Job from '../../components/reusable/job';
 
 const mockJob = {
   title: 'Proofreading/light editing of a legal document translated from Japanese to English',

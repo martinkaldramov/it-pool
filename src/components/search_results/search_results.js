@@ -1,7 +1,7 @@
 // @flow
 import * as React from 'react';
 import FilterBar from './filter_bar';
-import JobsList from './jobs_list';
+import JobsList from '../reusable/jobs_list';
 
 const SearchResults = (): React.Node => (
   <React.Fragment>
