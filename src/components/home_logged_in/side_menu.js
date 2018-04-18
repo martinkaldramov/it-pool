@@ -4,12 +4,22 @@ import Divider from 'material-ui/Divider';
 import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
 
+import ActionHome from 'material-ui/svg-icons/action/home';
+import NotificationEventNote from 'material-ui/svg-icons/notification/event-note';
+import ActionEvent from 'material-ui/svg-icons/action/event';
+
 const SideMenu = (): React.Node => (
   <Drawer docked>
-    <MenuItem>Home</MenuItem>
+    <MenuItem>
+      <ActionHome />Home
+    </MenuItem>
     <Divider />
-    <MenuItem>My Applications</MenuItem>
-    <MenuItem>My Proposals</MenuItem>
+    <MenuItem>
+      <NotificationEventNote />My Applications
+    </MenuItem>
+    <MenuItem>
+      <ActionEvent />My Proposals
+    </MenuItem>
   </Drawer>
 );
 
