@@ -1,0 +1,203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecentSearches should render successful 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RecentSearches
+    searches={
+        Array [
+            "Web Developer",
+            "linux system administrator",
+            "nodejs backend developer",
+            "ReactJS Developer",
+            "network engineer",
+            "devops",
+            "C# desktop developer",
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li>
+          Web Developer
+</li>,
+        <li>
+          linux system administrator
+</li>,
+        <li>
+          nodejs backend developer
+</li>,
+        <li>
+          ReactJS Developer
+</li>,
+        <li>
+          network engineer
+</li>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Web Developer",
+        },
+        "ref": null,
+        "rendered": "Web Developer",
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "linux system administrator",
+        },
+        "ref": null,
+        "rendered": "linux system administrator",
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "nodejs backend developer",
+        },
+        "ref": null,
+        "rendered": "nodejs backend developer",
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "ReactJS Developer",
+        },
+        "ref": null,
+        "rendered": "ReactJS Developer",
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "network engineer",
+        },
+        "ref": null,
+        "rendered": "network engineer",
+        "type": "li",
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li>
+            Web Developer
+</li>,
+          <li>
+            linux system administrator
+</li>,
+          <li>
+            nodejs backend developer
+</li>,
+          <li>
+            ReactJS Developer
+</li>,
+          <li>
+            network engineer
+</li>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Web Developer",
+          },
+          "ref": null,
+          "rendered": "Web Developer",
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "linux system administrator",
+          },
+          "ref": null,
+          "rendered": "linux system administrator",
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "nodejs backend developer",
+          },
+          "ref": null,
+          "rendered": "nodejs backend developer",
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "ReactJS Developer",
+          },
+          "ref": null,
+          "rendered": "ReactJS Developer",
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "network engineer",
+          },
+          "ref": null,
+          "rendered": "network engineer",
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
