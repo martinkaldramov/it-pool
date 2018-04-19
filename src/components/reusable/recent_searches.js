@@ -2,12 +2,17 @@
 import * as React from 'react';
 import MockProfile from '../../mock_data/mock_profile';
 
-const lastFive: string[] = [];
+// const RecentSearches = () => <ul>{lastFive.map(item => <li>{item}</li>)}</ul>;
 
-for (let i = 0; i < 5; i + 1) {
-  lastFive.push(MockProfile.recentSearches[i]);
-}
-
-const RecentSearches = () => <ul>{lastFive.map(item => <li>{item}</li>)}</ul>;
+const RecentSearches = () => (
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+    <li>Item 6</li>
+  </ul>
+);
 
 export default RecentSearches;

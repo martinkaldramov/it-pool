@@ -7,6 +7,7 @@ import MenuItem from 'material-ui/MenuItem';
 import ActionHome from 'material-ui/svg-icons/action/home';
 
 import StaticMenuItems from '../reusable/static_menu_items';
+import RecentSearches from './recent_searches';
 
 const SideMenu = (): React.Node => (
   <Drawer docked>
@@ -15,6 +16,8 @@ const SideMenu = (): React.Node => (
     </MenuItem>
     <Divider />
     <StaticMenuItems />
+    <Divider />
+    <RecentSearches />
     <Divider />
   </Drawer>
 );
