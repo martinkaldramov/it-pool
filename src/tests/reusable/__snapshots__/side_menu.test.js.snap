@@ -38,7 +38,7 @@ ShallowWrapper {
           }
 >
           <ActionHome />
-          Home
+           Home
 </MenuItem>,
         <Divider
           inset={false}
@@ -79,6 +79,7 @@ ShallowWrapper {
         <Divider
           inset={false}
 />,
+        <MyProfile />,
       ],
       "disableSwipeToOpen": false,
       "docked": true,
@@ -102,7 +103,7 @@ ShallowWrapper {
           "checked": false,
           "children": Array [
             <ActionHome />,
-            "Home",
+            " Home",
           ],
           "desktop": false,
           "disabled": false,
@@ -124,7 +125,7 @@ ShallowWrapper {
             "rendered": null,
             "type": [Function],
           },
-          "Home",
+          " Home",
         ],
         "type": [Function],
       },
@@ -219,6 +220,15 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
     ],
     "type": [Function],
   },
@@ -249,7 +259,7 @@ ShallowWrapper {
             }
 >
             <ActionHome />
-            Home
+             Home
 </MenuItem>,
           <Divider
             inset={false}
@@ -290,6 +300,7 @@ ShallowWrapper {
           <Divider
             inset={false}
 />,
+          <MyProfile />,
         ],
         "disableSwipeToOpen": false,
         "docked": true,
@@ -313,7 +324,7 @@ ShallowWrapper {
             "checked": false,
             "children": Array [
               <ActionHome />,
-              "Home",
+              " Home",
             ],
             "desktop": false,
             "disabled": false,
@@ -335,7 +346,7 @@ ShallowWrapper {
               "rendered": null,
               "type": [Function],
             },
-            "Home",
+            " Home",
           ],
           "type": [Function],
         },
@@ -426,6 +437,15 @@ ShallowWrapper {
           "props": Object {
             "inset": false,
           },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
           "ref": null,
           "rendered": null,
           "type": [Function],

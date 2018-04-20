@@ -21,7 +21,6 @@ type Props = {
  */
 const ApplicationBar = ({ history }: Props): React.Node => (
   <AppBar
-    showMenuIconButton={false}
     title={<span style={styles.title}>IT Pool</span>}
     iconElementRight={
       <React.Fragment>

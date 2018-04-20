@@ -18,7 +18,9 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "children": Array [
-        <SideMenu />,
+        <SideMenu
+          docked={true}
+/>,
         <JobsList />,
       ],
     },
@@ -28,7 +30,9 @@ ShallowWrapper {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
-        "props": Object {},
+        "props": Object {
+          "docked": true,
+        },
         "ref": null,
         "rendered": null,
         "type": [Function],
@@ -52,7 +56,9 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": Array [
-          <SideMenu />,
+          <SideMenu
+            docked={true}
+/>,
           <JobsList />,
         ],
       },
@@ -62,7 +68,9 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
-          "props": Object {},
+          "props": Object {
+            "docked": true,
+          },
           "ref": null,
           "rendered": null,
           "type": [Function],

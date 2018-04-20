@@ -12,8 +12,12 @@ import RecentSearches from './recent_searches';
 import MyCategories from './my_categories';
 import MyProfile from './my_profile';
 
-const SideMenu = (): React.Node => (
-  <Drawer docked>
+type Props = {
+  docked: boolean,
+};
+
+const SideMenu = (props: Props): React.Node => (
+  <Drawer docked={props.docked}>
     <MenuItem>
       <ActionHome /> Home
     </MenuItem>
