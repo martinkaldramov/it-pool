@@ -27,24 +27,55 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
-        <li>
-          Web Developer
-</li>,
-        <li>
-          linux system administrator
-</li>,
-        <li>
-          nodejs backend developer
-</li>,
-        <li>
-          ReactJS Developer
-</li>,
-        <li>
-          network engineer
-</li>,
+        <MenuItem
+          anchorOrigin={
+                    Object {
+                              "horizontal": "right",
+                              "vertical": "top",
+                            }
+          }
+          checked={false}
+          desktop={false}
+          disabled={false}
+          focusState="none"
+          insetChildren={false}
+          targetOrigin={
+                    Object {
+                              "horizontal": "left",
+                              "vertical": "top",
+                            }
+          }
+>
+          RECENT SEARCHES
+</MenuItem>,
+        <ul>
+          <ul>
+                    <li>
+                              Web Developer
+                    </li>
+                    <li>
+                              linux system administrator
+                    </li>
+                    <li>
+                              nodejs backend developer
+                    </li>
+                    <li>
+                              ReactJS Developer
+                    </li>
+                    <li>
+                              network engineer
+                    </li>
+                    <li>
+                              devops
+                    </li>
+                    <li>
+                              C# desktop developer
+                    </li>
+          </ul>
+</ul>,
       ],
     },
     "ref": null,
@@ -52,83 +83,226 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "class",
         "props": Object {
-          "children": "Web Developer",
+          "anchorOrigin": Object {
+            "horizontal": "right",
+            "vertical": "top",
+          },
+          "checked": false,
+          "children": "RECENT SEARCHES",
+          "desktop": false,
+          "disabled": false,
+          "focusState": "none",
+          "insetChildren": false,
+          "targetOrigin": Object {
+            "horizontal": "left",
+            "vertical": "top",
+          },
         },
         "ref": null,
-        "rendered": "Web Developer",
-        "type": "li",
+        "rendered": "RECENT SEARCHES",
+        "type": [Function],
       },
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "linux system administrator",
+          "children": <ul>
+            <li>
+                        Web Developer
+            </li>
+            <li>
+                        linux system administrator
+            </li>
+            <li>
+                        nodejs backend developer
+            </li>
+            <li>
+                        ReactJS Developer
+            </li>
+            <li>
+                        network engineer
+            </li>
+            <li>
+                        devops
+            </li>
+            <li>
+                        C# desktop developer
+            </li>
+</ul>,
         },
         "ref": null,
-        "rendered": "linux system administrator",
-        "type": "li",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "nodejs backend developer",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                Web Developer
+</li>,
+              <li>
+                linux system administrator
+</li>,
+              <li>
+                nodejs backend developer
+</li>,
+              <li>
+                ReactJS Developer
+</li>,
+              <li>
+                network engineer
+</li>,
+              <li>
+                devops
+</li>,
+              <li>
+                C# desktop developer
+</li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Web Developer",
+              },
+              "ref": null,
+              "rendered": "Web Developer",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "linux system administrator",
+              },
+              "ref": null,
+              "rendered": "linux system administrator",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "nodejs backend developer",
+              },
+              "ref": null,
+              "rendered": "nodejs backend developer",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "ReactJS Developer",
+              },
+              "ref": null,
+              "rendered": "ReactJS Developer",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "network engineer",
+              },
+              "ref": null,
+              "rendered": "network engineer",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "devops",
+              },
+              "ref": null,
+              "rendered": "devops",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "C# desktop developer",
+              },
+              "ref": null,
+              "rendered": "C# desktop developer",
+              "type": "li",
+            },
+          ],
+          "type": "ul",
         },
-        "ref": null,
-        "rendered": "nodejs backend developer",
-        "type": "li",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "ReactJS Developer",
-        },
-        "ref": null,
-        "rendered": "ReactJS Developer",
-        "type": "li",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "network engineer",
-        },
-        "ref": null,
-        "rendered": "network engineer",
-        "type": "li",
+        "type": "ul",
       },
     ],
-    "type": "ul",
+    "type": Symbol(react.fragment),
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
-          <li>
-            Web Developer
-</li>,
-          <li>
-            linux system administrator
-</li>,
-          <li>
-            nodejs backend developer
-</li>,
-          <li>
-            ReactJS Developer
-</li>,
-          <li>
-            network engineer
-</li>,
+          <MenuItem
+            anchorOrigin={
+                        Object {
+                                    "horizontal": "right",
+                                    "vertical": "top",
+                                  }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            targetOrigin={
+                        Object {
+                                    "horizontal": "left",
+                                    "vertical": "top",
+                                  }
+            }
+>
+            RECENT SEARCHES
+</MenuItem>,
+          <ul>
+            <ul>
+                        <li>
+                                    Web Developer
+                        </li>
+                        <li>
+                                    linux system administrator
+                        </li>
+                        <li>
+                                    nodejs backend developer
+                        </li>
+                        <li>
+                                    ReactJS Developer
+                        </li>
+                        <li>
+                                    network engineer
+                        </li>
+                        <li>
+                                    devops
+                        </li>
+                        <li>
+                                    C# desktop developer
+                        </li>
+            </ul>
+</ul>,
         ],
       },
       "ref": null,
@@ -136,60 +310,172 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
-            "children": "Web Developer",
+            "anchorOrigin": Object {
+              "horizontal": "right",
+              "vertical": "top",
+            },
+            "checked": false,
+            "children": "RECENT SEARCHES",
+            "desktop": false,
+            "disabled": false,
+            "focusState": "none",
+            "insetChildren": false,
+            "targetOrigin": Object {
+              "horizontal": "left",
+              "vertical": "top",
+            },
           },
           "ref": null,
-          "rendered": "Web Developer",
-          "type": "li",
+          "rendered": "RECENT SEARCHES",
+          "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "linux system administrator",
+            "children": <ul>
+              <li>
+                            Web Developer
+              </li>
+              <li>
+                            linux system administrator
+              </li>
+              <li>
+                            nodejs backend developer
+              </li>
+              <li>
+                            ReactJS Developer
+              </li>
+              <li>
+                            network engineer
+              </li>
+              <li>
+                            devops
+              </li>
+              <li>
+                            C# desktop developer
+              </li>
+</ul>,
           },
           "ref": null,
-          "rendered": "linux system administrator",
-          "type": "li",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "nodejs backend developer",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li>
+                  Web Developer
+</li>,
+                <li>
+                  linux system administrator
+</li>,
+                <li>
+                  nodejs backend developer
+</li>,
+                <li>
+                  ReactJS Developer
+</li>,
+                <li>
+                  network engineer
+</li>,
+                <li>
+                  devops
+</li>,
+                <li>
+                  C# desktop developer
+</li>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Web Developer",
+                },
+                "ref": null,
+                "rendered": "Web Developer",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "linux system administrator",
+                },
+                "ref": null,
+                "rendered": "linux system administrator",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "nodejs backend developer",
+                },
+                "ref": null,
+                "rendered": "nodejs backend developer",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "ReactJS Developer",
+                },
+                "ref": null,
+                "rendered": "ReactJS Developer",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "network engineer",
+                },
+                "ref": null,
+                "rendered": "network engineer",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "devops",
+                },
+                "ref": null,
+                "rendered": "devops",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "C# desktop developer",
+                },
+                "ref": null,
+                "rendered": "C# desktop developer",
+                "type": "li",
+              },
+            ],
+            "type": "ul",
           },
-          "ref": null,
-          "rendered": "nodejs backend developer",
-          "type": "li",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "ReactJS Developer",
-          },
-          "ref": null,
-          "rendered": "ReactJS Developer",
-          "type": "li",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "network engineer",
-          },
-          "ref": null,
-          "rendered": "network engineer",
-          "type": "li",
+          "type": "ul",
         },
       ],
-      "type": "ul",
+      "type": Symbol(react.fragment),
     },
   ],
   Symbol(enzyme.__options__): Object {
