@@ -15,104 +15,177 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
-        <MenuItem
-          anchorOrigin={
-                    Object {
-                              "horizontal": "right",
-                              "vertical": "top",
-                            }
-          }
-          checked={false}
-          desktop={false}
-          disabled={false}
-          focusState="none"
-          insetChildren={false}
-          targetOrigin={
-                    Object {
-                              "horizontal": "left",
-                              "vertical": "top",
-                            }
-          }
+        <withRouter(ApplicationBar)
+          openMenu={[Function]}
+/>,
+        <Drawer
+          disableSwipeToOpen={false}
+          docked={false}
+          onRequestChange={[Function]}
+          open={false}
+          openSecondary={false}
+          swipeAreaWidth={30}
+          width={null}
+          zDepth={2}
 >
-          <ActionHome />
-           Home
-</MenuItem>,
-        <Divider
-          inset={false}
-/>,
-        <StaticMenuItems />,
-        <Divider
-          inset={false}
-/>,
-        <RecentSearches
-          recentSearches={
-                    Array [
-                              "Web Developer",
-                              "linux system administrator",
-                              "nodejs backend developer",
-                              "ReactJS Developer",
-                              "network engineer",
-                              "devops",
-                              "C# desktop developer",
-                            ]
-          }
-/>,
-        <Divider
-          inset={false}
-/>,
-        <MyCategories
-          categories={
-                    Array [
-                              "Web Development",
-                              "Web & Mobile Design",
-                              "Scripts & Utilities",
-                              "Desktop Software Development",
-                              "Quality Assurance",
-                              "Frontend Web Development",
-                              "Network Engineering",
-                            ]
-          }
-/>,
-        <Divider
-          inset={false}
-/>,
-        <MyProfile />,
+          <MenuItem
+                    anchorOrigin={
+                              Object {
+                                        "horizontal": "right",
+                                        "vertical": "top",
+                                      }
+                    }
+                    checked={false}
+                    desktop={false}
+                    disabled={false}
+                    focusState="none"
+                    insetChildren={false}
+                    targetOrigin={
+                              Object {
+                                        "horizontal": "left",
+                                        "vertical": "top",
+                                      }
+                    }
+          >
+                    <ActionHome />
+                     Home
+          </MenuItem>
+          <Divider
+                    inset={false}
+          />
+          <StaticMenuItems />
+          <Divider
+                    inset={false}
+          />
+          <RecentSearches
+                    recentSearches={
+                              Array [
+                                        "Web Developer",
+                                        "linux system administrator",
+                                        "nodejs backend developer",
+                                        "ReactJS Developer",
+                                        "network engineer",
+                                        "devops",
+                                        "C# desktop developer",
+                                      ]
+                    }
+          />
+          <Divider
+                    inset={false}
+          />
+          <MyCategories
+                    categories={
+                              Array [
+                                        "Web Development",
+                                        "Web & Mobile Design",
+                                        "Scripts & Utilities",
+                                        "Desktop Software Development",
+                                        "Quality Assurance",
+                                        "Frontend Web Development",
+                                        "Network Engineering",
+                                      ]
+                    }
+          />
+          <Divider
+                    inset={false}
+          />
+          <MyProfile />
+</Drawer>,
       ],
-      "disableSwipeToOpen": false,
-      "docked": true,
-      "open": null,
-      "openSecondary": false,
-      "swipeAreaWidth": 30,
-      "width": null,
-      "zDepth": 2,
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
         "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "openMenu": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "anchorOrigin": Object {
-            "horizontal": "right",
-            "vertical": "top",
-          },
-          "checked": false,
           "children": Array [
-            <ActionHome />,
-            " Home",
+            <MenuItem
+              anchorOrigin={
+                            Object {
+                                          "horizontal": "right",
+                                          "vertical": "top",
+                                        }
+              }
+              checked={false}
+              desktop={false}
+              disabled={false}
+              focusState="none"
+              insetChildren={false}
+              targetOrigin={
+                            Object {
+                                          "horizontal": "left",
+                                          "vertical": "top",
+                                        }
+              }
+>
+              <ActionHome />
+               Home
+</MenuItem>,
+            <Divider
+              inset={false}
+/>,
+            <StaticMenuItems />,
+            <Divider
+              inset={false}
+/>,
+            <RecentSearches
+              recentSearches={
+                            Array [
+                                          "Web Developer",
+                                          "linux system administrator",
+                                          "nodejs backend developer",
+                                          "ReactJS Developer",
+                                          "network engineer",
+                                          "devops",
+                                          "C# desktop developer",
+                                        ]
+              }
+/>,
+            <Divider
+              inset={false}
+/>,
+            <MyCategories
+              categories={
+                            Array [
+                                          "Web Development",
+                                          "Web & Mobile Design",
+                                          "Scripts & Utilities",
+                                          "Desktop Software Development",
+                                          "Quality Assurance",
+                                          "Frontend Web Development",
+                                          "Network Engineering",
+                                        ]
+              }
+/>,
+            <Divider
+              inset={false}
+/>,
+            <MyProfile />,
           ],
-          "desktop": false,
-          "disabled": false,
-          "focusState": "none",
-          "insetChildren": false,
-          "targetOrigin": Object {
-            "horizontal": "left",
-            "vertical": "top",
-          },
+          "disableSwipeToOpen": false,
+          "docked": false,
+          "onRequestChange": [Function],
+          "open": false,
+          "openSecondary": false,
+          "swipeAreaWidth": 30,
+          "width": null,
+          "zDepth": 2,
         },
         "ref": null,
         "rendered": Array [
@@ -120,220 +193,321 @@ ShallowWrapper {
             "instance": null,
             "key": undefined,
             "nodeType": "class",
+            "props": Object {
+              "anchorOrigin": Object {
+                "horizontal": "right",
+                "vertical": "top",
+              },
+              "checked": false,
+              "children": Array [
+                <ActionHome />,
+                " Home",
+              ],
+              "desktop": false,
+              "disabled": false,
+              "focusState": "none",
+              "insetChildren": false,
+              "targetOrigin": Object {
+                "horizontal": "left",
+                "vertical": "top",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              " Home",
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "inset": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
             "props": Object {},
             "ref": null,
             "rendered": null,
             "type": [Function],
           },
-          " Home",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "inset": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "recentSearches": Array [
+                "Web Developer",
+                "linux system administrator",
+                "nodejs backend developer",
+                "ReactJS Developer",
+                "network engineer",
+                "devops",
+                "C# desktop developer",
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "inset": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "categories": Array [
+                "Web Development",
+                "Web & Mobile Design",
+                "Scripts & Utilities",
+                "Desktop Software Development",
+                "Quality Assurance",
+                "Frontend Web Development",
+                "Network Engineering",
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "inset": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
         ],
         "type": [Function],
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "inset": false,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "inset": false,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "recentSearches": Array [
-            "Web Developer",
-            "linux system administrator",
-            "nodejs backend developer",
-            "ReactJS Developer",
-            "network engineer",
-            "devops",
-            "C# desktop developer",
-          ],
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "inset": false,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "categories": Array [
-            "Web Development",
-            "Web & Mobile Design",
-            "Scripts & Utilities",
-            "Desktop Software Development",
-            "Quality Assurance",
-            "Frontend Web Development",
-            "Network Engineering",
-          ],
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "inset": false,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
     ],
-    "type": [Function],
+    "type": Symbol(react.fragment),
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
-          <MenuItem
-            anchorOrigin={
-                        Object {
-                                    "horizontal": "right",
-                                    "vertical": "top",
-                                  }
-            }
-            checked={false}
-            desktop={false}
-            disabled={false}
-            focusState="none"
-            insetChildren={false}
-            targetOrigin={
-                        Object {
-                                    "horizontal": "left",
-                                    "vertical": "top",
-                                  }
-            }
+          <withRouter(ApplicationBar)
+            openMenu={[Function]}
+/>,
+          <Drawer
+            disableSwipeToOpen={false}
+            docked={false}
+            onRequestChange={[Function]}
+            open={false}
+            openSecondary={false}
+            swipeAreaWidth={30}
+            width={null}
+            zDepth={2}
 >
-            <ActionHome />
-             Home
-</MenuItem>,
-          <Divider
-            inset={false}
-/>,
-          <StaticMenuItems />,
-          <Divider
-            inset={false}
-/>,
-          <RecentSearches
-            recentSearches={
-                        Array [
-                                    "Web Developer",
-                                    "linux system administrator",
-                                    "nodejs backend developer",
-                                    "ReactJS Developer",
-                                    "network engineer",
-                                    "devops",
-                                    "C# desktop developer",
-                                  ]
-            }
-/>,
-          <Divider
-            inset={false}
-/>,
-          <MyCategories
-            categories={
-                        Array [
-                                    "Web Development",
-                                    "Web & Mobile Design",
-                                    "Scripts & Utilities",
-                                    "Desktop Software Development",
-                                    "Quality Assurance",
-                                    "Frontend Web Development",
-                                    "Network Engineering",
-                                  ]
-            }
-/>,
-          <Divider
-            inset={false}
-/>,
-          <MyProfile />,
+            <MenuItem
+                        anchorOrigin={
+                                    Object {
+                                                "horizontal": "right",
+                                                "vertical": "top",
+                                              }
+                        }
+                        checked={false}
+                        desktop={false}
+                        disabled={false}
+                        focusState="none"
+                        insetChildren={false}
+                        targetOrigin={
+                                    Object {
+                                                "horizontal": "left",
+                                                "vertical": "top",
+                                              }
+                        }
+            >
+                        <ActionHome />
+                         Home
+            </MenuItem>
+            <Divider
+                        inset={false}
+            />
+            <StaticMenuItems />
+            <Divider
+                        inset={false}
+            />
+            <RecentSearches
+                        recentSearches={
+                                    Array [
+                                                "Web Developer",
+                                                "linux system administrator",
+                                                "nodejs backend developer",
+                                                "ReactJS Developer",
+                                                "network engineer",
+                                                "devops",
+                                                "C# desktop developer",
+                                              ]
+                        }
+            />
+            <Divider
+                        inset={false}
+            />
+            <MyCategories
+                        categories={
+                                    Array [
+                                                "Web Development",
+                                                "Web & Mobile Design",
+                                                "Scripts & Utilities",
+                                                "Desktop Software Development",
+                                                "Quality Assurance",
+                                                "Frontend Web Development",
+                                                "Network Engineering",
+                                              ]
+                        }
+            />
+            <Divider
+                        inset={false}
+            />
+            <MyProfile />
+</Drawer>,
         ],
-        "disableSwipeToOpen": false,
-        "docked": true,
-        "open": null,
-        "openSecondary": false,
-        "swipeAreaWidth": 30,
-        "width": null,
-        "zDepth": 2,
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "openMenu": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "anchorOrigin": Object {
-              "horizontal": "right",
-              "vertical": "top",
-            },
-            "checked": false,
             "children": Array [
-              <ActionHome />,
-              " Home",
+              <MenuItem
+                anchorOrigin={
+                                Object {
+                                                "horizontal": "right",
+                                                "vertical": "top",
+                                              }
+                }
+                checked={false}
+                desktop={false}
+                disabled={false}
+                focusState="none"
+                insetChildren={false}
+                targetOrigin={
+                                Object {
+                                                "horizontal": "left",
+                                                "vertical": "top",
+                                              }
+                }
+>
+                <ActionHome />
+                 Home
+</MenuItem>,
+              <Divider
+                inset={false}
+/>,
+              <StaticMenuItems />,
+              <Divider
+                inset={false}
+/>,
+              <RecentSearches
+                recentSearches={
+                                Array [
+                                                "Web Developer",
+                                                "linux system administrator",
+                                                "nodejs backend developer",
+                                                "ReactJS Developer",
+                                                "network engineer",
+                                                "devops",
+                                                "C# desktop developer",
+                                              ]
+                }
+/>,
+              <Divider
+                inset={false}
+/>,
+              <MyCategories
+                categories={
+                                Array [
+                                                "Web Development",
+                                                "Web & Mobile Design",
+                                                "Scripts & Utilities",
+                                                "Desktop Software Development",
+                                                "Quality Assurance",
+                                                "Frontend Web Development",
+                                                "Network Engineering",
+                                              ]
+                }
+/>,
+              <Divider
+                inset={false}
+/>,
+              <MyProfile />,
             ],
-            "desktop": false,
-            "disabled": false,
-            "focusState": "none",
-            "insetChildren": false,
-            "targetOrigin": Object {
-              "horizontal": "left",
-              "vertical": "top",
-            },
+            "disableSwipeToOpen": false,
+            "docked": false,
+            "onRequestChange": [Function],
+            "open": false,
+            "openSecondary": false,
+            "swipeAreaWidth": 30,
+            "width": null,
+            "zDepth": 2,
           },
           "ref": null,
           "rendered": Array [
@@ -341,117 +515,145 @@ ShallowWrapper {
               "instance": null,
               "key": undefined,
               "nodeType": "class",
+              "props": Object {
+                "anchorOrigin": Object {
+                  "horizontal": "right",
+                  "vertical": "top",
+                },
+                "checked": false,
+                "children": Array [
+                  <ActionHome />,
+                  " Home",
+                ],
+                "desktop": false,
+                "disabled": false,
+                "focusState": "none",
+                "insetChildren": false,
+                "targetOrigin": Object {
+                  "horizontal": "left",
+                  "vertical": "top",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                " Home",
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "inset": false,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
               "props": Object {},
               "ref": null,
               "rendered": null,
               "type": [Function],
             },
-            " Home",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "inset": false,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "recentSearches": Array [
+                  "Web Developer",
+                  "linux system administrator",
+                  "nodejs backend developer",
+                  "ReactJS Developer",
+                  "network engineer",
+                  "devops",
+                  "C# desktop developer",
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "inset": false,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "categories": Array [
+                  "Web Development",
+                  "Web & Mobile Design",
+                  "Scripts & Utilities",
+                  "Desktop Software Development",
+                  "Quality Assurance",
+                  "Frontend Web Development",
+                  "Network Engineering",
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "inset": false,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
           ],
           "type": [Function],
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "inset": false,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "inset": false,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "recentSearches": Array [
-              "Web Developer",
-              "linux system administrator",
-              "nodejs backend developer",
-              "ReactJS Developer",
-              "network engineer",
-              "devops",
-              "C# desktop developer",
-            ],
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "inset": false,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "categories": Array [
-              "Web Development",
-              "Web & Mobile Design",
-              "Scripts & Utilities",
-              "Desktop Software Development",
-              "Quality Assurance",
-              "Frontend Web Development",
-              "Network Engineering",
-            ],
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "inset": false,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
       ],
-      "type": [Function],
+      "type": Symbol(react.fragment),
     },
   ],
   Symbol(enzyme.__options__): Object {

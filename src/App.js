@@ -5,14 +5,14 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import './App.css';
-import ApplicationBar from './components/app_bar';
+import SideMenu from './components/reusable/side_menu';
 import SearchBar from './components/search_bar';
 import SearchResults from './components/search_results/search_results';
 import HomeLoggedIn from './components/home_logged_in/home_logged_in';
 
 const App = () => (
   <MuiThemeProvider>
-    <ApplicationBar />
+    <SideMenu />
     <Switch>
       <Route exact path="/" component={SearchBar} />
       <Route exact path="/search-results" component={SearchResults} />

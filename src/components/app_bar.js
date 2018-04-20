@@ -13,15 +13,17 @@ const styles = {
 
 type Props = {
   history: any,
+  openMenu: void,
 };
 
 /**
  * This example uses an [IconButton](/#/components/icon-button) on the left, has a clickable `title`
  * through the `onClick` property, and a [FlatButton](/#/components/flat-button) on the right.
  */
-const ApplicationBar = ({ history }: Props): React.Node => (
+const ApplicationBar = ({ history, openMenu }: Props): React.Node => (
   <AppBar
     title={<span style={styles.title}>IT Pool</span>}
+    onLeftIconButtonClick={openMenu}
     iconElementRight={
       <React.Fragment>
         <FlatButton
