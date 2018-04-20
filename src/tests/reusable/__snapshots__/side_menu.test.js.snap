@@ -47,7 +47,35 @@ ShallowWrapper {
         <Divider
           inset={false}
 />,
-        <RecentSearches />,
+        <RecentSearches
+          recentSearches={
+                    Array [
+                              "Web Developer",
+                              "linux system administrator",
+                              "nodejs backend developer",
+                              "ReactJS Developer",
+                              "network engineer",
+                              "devops",
+                              "C# desktop developer",
+                            ]
+          }
+/>,
+        <Divider
+          inset={false}
+/>,
+        <MyCategories
+          categories={
+                    Array [
+                              "Web Development",
+                              "Web & Mobile Design",
+                              "Scripts & Utilities",
+                              "Desktop Software Development",
+                              "Quality Assurance",
+                              "Frontend Web Development",
+                              "Network Engineering",
+                            ]
+          }
+/>,
         <Divider
           inset={false}
 />,
@@ -135,7 +163,47 @@ ShallowWrapper {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
-        "props": Object {},
+        "props": Object {
+          "recentSearches": Array [
+            "Web Developer",
+            "linux system administrator",
+            "nodejs backend developer",
+            "ReactJS Developer",
+            "network engineer",
+            "devops",
+            "C# desktop developer",
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "inset": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "categories": Array [
+            "Web Development",
+            "Web & Mobile Design",
+            "Scripts & Utilities",
+            "Desktop Software Development",
+            "Quality Assurance",
+            "Frontend Web Development",
+            "Network Engineering",
+          ],
+        },
         "ref": null,
         "rendered": null,
         "type": [Function],
@@ -190,7 +258,35 @@ ShallowWrapper {
           <Divider
             inset={false}
 />,
-          <RecentSearches />,
+          <RecentSearches
+            recentSearches={
+                        Array [
+                                    "Web Developer",
+                                    "linux system administrator",
+                                    "nodejs backend developer",
+                                    "ReactJS Developer",
+                                    "network engineer",
+                                    "devops",
+                                    "C# desktop developer",
+                                  ]
+            }
+/>,
+          <Divider
+            inset={false}
+/>,
+          <MyCategories
+            categories={
+                        Array [
+                                    "Web Development",
+                                    "Web & Mobile Design",
+                                    "Scripts & Utilities",
+                                    "Desktop Software Development",
+                                    "Quality Assurance",
+                                    "Frontend Web Development",
+                                    "Network Engineering",
+                                  ]
+            }
+/>,
           <Divider
             inset={false}
 />,
@@ -278,7 +374,47 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
-          "props": Object {},
+          "props": Object {
+            "recentSearches": Array [
+              "Web Developer",
+              "linux system administrator",
+              "nodejs backend developer",
+              "ReactJS Developer",
+              "network engineer",
+              "devops",
+              "C# desktop developer",
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "inset": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "categories": Array [
+              "Web Development",
+              "Web & Mobile Design",
+              "Scripts & Utilities",
+              "Desktop Software Development",
+              "Quality Assurance",
+              "Frontend Web Development",
+              "Network Engineering",
+            ],
+          },
           "ref": null,
           "rendered": null,
           "type": [Function],
