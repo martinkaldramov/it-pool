@@ -10,11 +10,12 @@ import MockProfile from '../../mock_data/mock_profile';
 import StaticMenuItems from '../reusable/static_menu_items';
 import RecentSearches from './recent_searches';
 import MyCategories from './my_categories';
+import MyProfile from './my_profile';
 
 const SideMenu = (): React.Node => (
   <Drawer docked>
     <MenuItem>
-      <ActionHome />Home
+      <ActionHome /> Home
     </MenuItem>
     <Divider />
     <StaticMenuItems />
@@ -23,6 +24,7 @@ const SideMenu = (): React.Node => (
     <Divider />
     <MyCategories categories={MockProfile.categories} />
     <Divider />
+    <MyProfile />
   </Drawer>
 );
 
