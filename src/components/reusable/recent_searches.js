@@ -1,14 +1,17 @@
 // @flow
 import * as React from 'react';
 import MenuItem from 'material-ui/MenuItem';
-import MockProfile from '../../mock_data/mock_profile';
 
-const searchTerms = MockProfile.recentSearches.map(term => <li>{term}</li>);
+type Props = {
+  recentSearches: string[],
+};
 
-const RecentSearches = () => (
+const renderListItems = item => <li>{item}</li>;
+
+const RecentSearches = (props: Props) => (
   <React.Fragment>
     <MenuItem>RECENT SEARCHES</MenuItem>
-    <ul>{searchTerms}</ul>
+    <ul>{props.recentSearches.map(renderListItems)}</ul>
   </React.Fragment>
 );
 
