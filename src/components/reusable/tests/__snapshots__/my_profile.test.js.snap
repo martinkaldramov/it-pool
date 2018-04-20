@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`StaticMenuItems should render successfully 1`] = `
+exports[`MyProfile should render successfully 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <StaticMenuItems />,
+  Symbol(enzyme.__unrendered__): <MyProfile />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -37,7 +37,7 @@ ShallowWrapper {
                             }
           }
 >
-          FIND JOBS
+          MY PROFILE
 </MenuItem>,
         <MenuItem
           anchorOrigin={
@@ -58,8 +58,12 @@ ShallowWrapper {
                             }
           }
 >
-          <NotificationEventNote />
-           My Applications
+          <Toggle
+                    defaultToggled={true}
+                    disabled={false}
+                    labelPosition="left"
+          />
+           Receive Offers
 </MenuItem>,
         <MenuItem
           anchorOrigin={
@@ -80,8 +84,8 @@ ShallowWrapper {
                             }
           }
 >
-          <ActionEvent />
-           My Proposals
+          <ActionSettings />
+           Settings
 </MenuItem>,
         <MenuItem
           anchorOrigin={
@@ -102,8 +106,8 @@ ShallowWrapper {
                             }
           }
 >
-          <ContentSave />
-           Saved Jobs
+          <ImageRemoveRedEye />
+           View Profile
 </MenuItem>,
         <MenuItem
           anchorOrigin={
@@ -124,52 +128,8 @@ ShallowWrapper {
                             }
           }
 >
-          <ActionSearch />
-           Saved Searches
-</MenuItem>,
-        <MenuItem
-          anchorOrigin={
-                    Object {
-                              "horizontal": "right",
-                              "vertical": "top",
-                            }
-          }
-          checked={false}
-          desktop={false}
-          disabled={false}
-          focusState="none"
-          insetChildren={false}
-          targetOrigin={
-                    Object {
-                              "horizontal": "left",
-                              "vertical": "top",
-                            }
-          }
->
-          <SocialWhatshot />
-           Popular Jobs
-</MenuItem>,
-        <MenuItem
-          anchorOrigin={
-                    Object {
-                              "horizontal": "right",
-                              "vertical": "top",
-                            }
-          }
-          checked={false}
-          desktop={false}
-          disabled={false}
-          focusState="none"
-          insetChildren={false}
-          targetOrigin={
-                    Object {
-                              "horizontal": "left",
-                              "vertical": "top",
-                            }
-          }
->
-          <ActionExplore />
-           Browse Categories
+          <ActionExitToApp />
+           Sign Out
 </MenuItem>,
       ],
     },
@@ -185,7 +145,7 @@ ShallowWrapper {
             "vertical": "top",
           },
           "checked": false,
-          "children": "FIND JOBS",
+          "children": "MY PROFILE",
           "desktop": false,
           "disabled": false,
           "focusState": "none",
@@ -196,7 +156,7 @@ ShallowWrapper {
           },
         },
         "ref": null,
-        "rendered": "FIND JOBS",
+        "rendered": "MY PROFILE",
         "type": [Function],
       },
       Object {
@@ -210,8 +170,12 @@ ShallowWrapper {
           },
           "checked": false,
           "children": Array [
-            <NotificationEventNote />,
-            " My Applications",
+            <Toggle
+              defaultToggled={true}
+              disabled={false}
+              labelPosition="left"
+/>,
+            " Receive Offers",
           ],
           "desktop": false,
           "disabled": false,
@@ -228,12 +192,16 @@ ShallowWrapper {
             "instance": null,
             "key": undefined,
             "nodeType": "class",
-            "props": Object {},
+            "props": Object {
+              "defaultToggled": true,
+              "disabled": false,
+              "labelPosition": "left",
+            },
             "ref": null,
             "rendered": null,
             "type": [Function],
           },
-          " My Applications",
+          " Receive Offers",
         ],
         "type": [Function],
       },
@@ -248,8 +216,8 @@ ShallowWrapper {
           },
           "checked": false,
           "children": Array [
-            <ActionEvent />,
-            " My Proposals",
+            <ActionSettings />,
+            " Settings",
           ],
           "desktop": false,
           "disabled": false,
@@ -271,7 +239,7 @@ ShallowWrapper {
             "rendered": null,
             "type": [Function],
           },
-          " My Proposals",
+          " Settings",
         ],
         "type": [Function],
       },
@@ -286,8 +254,8 @@ ShallowWrapper {
           },
           "checked": false,
           "children": Array [
-            <ContentSave />,
-            " Saved Jobs",
+            <ImageRemoveRedEye />,
+            " View Profile",
           ],
           "desktop": false,
           "disabled": false,
@@ -309,7 +277,7 @@ ShallowWrapper {
             "rendered": null,
             "type": [Function],
           },
-          " Saved Jobs",
+          " View Profile",
         ],
         "type": [Function],
       },
@@ -324,8 +292,8 @@ ShallowWrapper {
           },
           "checked": false,
           "children": Array [
-            <ActionSearch />,
-            " Saved Searches",
+            <ActionExitToApp />,
+            " Sign Out",
           ],
           "desktop": false,
           "disabled": false,
@@ -347,83 +315,7 @@ ShallowWrapper {
             "rendered": null,
             "type": [Function],
           },
-          " Saved Searches",
-        ],
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "anchorOrigin": Object {
-            "horizontal": "right",
-            "vertical": "top",
-          },
-          "checked": false,
-          "children": Array [
-            <SocialWhatshot />,
-            " Popular Jobs",
-          ],
-          "desktop": false,
-          "disabled": false,
-          "focusState": "none",
-          "insetChildren": false,
-          "targetOrigin": Object {
-            "horizontal": "left",
-            "vertical": "top",
-          },
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          " Popular Jobs",
-        ],
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "anchorOrigin": Object {
-            "horizontal": "right",
-            "vertical": "top",
-          },
-          "checked": false,
-          "children": Array [
-            <ActionExplore />,
-            " Browse Categories",
-          ],
-          "desktop": false,
-          "disabled": false,
-          "focusState": "none",
-          "insetChildren": false,
-          "targetOrigin": Object {
-            "horizontal": "left",
-            "vertical": "top",
-          },
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          " Browse Categories",
+          " Sign Out",
         ],
         "type": [Function],
       },
@@ -456,7 +348,7 @@ ShallowWrapper {
                                   }
             }
 >
-            FIND JOBS
+            MY PROFILE
 </MenuItem>,
           <MenuItem
             anchorOrigin={
@@ -477,8 +369,12 @@ ShallowWrapper {
                                   }
             }
 >
-            <NotificationEventNote />
-             My Applications
+            <Toggle
+                        defaultToggled={true}
+                        disabled={false}
+                        labelPosition="left"
+            />
+             Receive Offers
 </MenuItem>,
           <MenuItem
             anchorOrigin={
@@ -499,8 +395,8 @@ ShallowWrapper {
                                   }
             }
 >
-            <ActionEvent />
-             My Proposals
+            <ActionSettings />
+             Settings
 </MenuItem>,
           <MenuItem
             anchorOrigin={
@@ -521,8 +417,8 @@ ShallowWrapper {
                                   }
             }
 >
-            <ContentSave />
-             Saved Jobs
+            <ImageRemoveRedEye />
+             View Profile
 </MenuItem>,
           <MenuItem
             anchorOrigin={
@@ -543,52 +439,8 @@ ShallowWrapper {
                                   }
             }
 >
-            <ActionSearch />
-             Saved Searches
-</MenuItem>,
-          <MenuItem
-            anchorOrigin={
-                        Object {
-                                    "horizontal": "right",
-                                    "vertical": "top",
-                                  }
-            }
-            checked={false}
-            desktop={false}
-            disabled={false}
-            focusState="none"
-            insetChildren={false}
-            targetOrigin={
-                        Object {
-                                    "horizontal": "left",
-                                    "vertical": "top",
-                                  }
-            }
->
-            <SocialWhatshot />
-             Popular Jobs
-</MenuItem>,
-          <MenuItem
-            anchorOrigin={
-                        Object {
-                                    "horizontal": "right",
-                                    "vertical": "top",
-                                  }
-            }
-            checked={false}
-            desktop={false}
-            disabled={false}
-            focusState="none"
-            insetChildren={false}
-            targetOrigin={
-                        Object {
-                                    "horizontal": "left",
-                                    "vertical": "top",
-                                  }
-            }
->
-            <ActionExplore />
-             Browse Categories
+            <ActionExitToApp />
+             Sign Out
 </MenuItem>,
         ],
       },
@@ -604,7 +456,7 @@ ShallowWrapper {
               "vertical": "top",
             },
             "checked": false,
-            "children": "FIND JOBS",
+            "children": "MY PROFILE",
             "desktop": false,
             "disabled": false,
             "focusState": "none",
@@ -615,7 +467,7 @@ ShallowWrapper {
             },
           },
           "ref": null,
-          "rendered": "FIND JOBS",
+          "rendered": "MY PROFILE",
           "type": [Function],
         },
         Object {
@@ -629,8 +481,12 @@ ShallowWrapper {
             },
             "checked": false,
             "children": Array [
-              <NotificationEventNote />,
-              " My Applications",
+              <Toggle
+                defaultToggled={true}
+                disabled={false}
+                labelPosition="left"
+/>,
+              " Receive Offers",
             ],
             "desktop": false,
             "disabled": false,
@@ -647,12 +503,16 @@ ShallowWrapper {
               "instance": null,
               "key": undefined,
               "nodeType": "class",
-              "props": Object {},
+              "props": Object {
+                "defaultToggled": true,
+                "disabled": false,
+                "labelPosition": "left",
+              },
               "ref": null,
               "rendered": null,
               "type": [Function],
             },
-            " My Applications",
+            " Receive Offers",
           ],
           "type": [Function],
         },
@@ -667,8 +527,8 @@ ShallowWrapper {
             },
             "checked": false,
             "children": Array [
-              <ActionEvent />,
-              " My Proposals",
+              <ActionSettings />,
+              " Settings",
             ],
             "desktop": false,
             "disabled": false,
@@ -690,7 +550,7 @@ ShallowWrapper {
               "rendered": null,
               "type": [Function],
             },
-            " My Proposals",
+            " Settings",
           ],
           "type": [Function],
         },
@@ -705,8 +565,8 @@ ShallowWrapper {
             },
             "checked": false,
             "children": Array [
-              <ContentSave />,
-              " Saved Jobs",
+              <ImageRemoveRedEye />,
+              " View Profile",
             ],
             "desktop": false,
             "disabled": false,
@@ -728,7 +588,7 @@ ShallowWrapper {
               "rendered": null,
               "type": [Function],
             },
-            " Saved Jobs",
+            " View Profile",
           ],
           "type": [Function],
         },
@@ -743,8 +603,8 @@ ShallowWrapper {
             },
             "checked": false,
             "children": Array [
-              <ActionSearch />,
-              " Saved Searches",
+              <ActionExitToApp />,
+              " Sign Out",
             ],
             "desktop": false,
             "disabled": false,
@@ -766,83 +626,7 @@ ShallowWrapper {
               "rendered": null,
               "type": [Function],
             },
-            " Saved Searches",
-          ],
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "anchorOrigin": Object {
-              "horizontal": "right",
-              "vertical": "top",
-            },
-            "checked": false,
-            "children": Array [
-              <SocialWhatshot />,
-              " Popular Jobs",
-            ],
-            "desktop": false,
-            "disabled": false,
-            "focusState": "none",
-            "insetChildren": false,
-            "targetOrigin": Object {
-              "horizontal": "left",
-              "vertical": "top",
-            },
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {},
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            " Popular Jobs",
-          ],
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "anchorOrigin": Object {
-              "horizontal": "right",
-              "vertical": "top",
-            },
-            "checked": false,
-            "children": Array [
-              <ActionExplore />,
-              " Browse Categories",
-            ],
-            "desktop": false,
-            "disabled": false,
-            "focusState": "none",
-            "insetChildren": false,
-            "targetOrigin": Object {
-              "horizontal": "left",
-              "vertical": "top",
-            },
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {},
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            " Browse Categories",
+            " Sign Out",
           ],
           "type": [Function],
         },

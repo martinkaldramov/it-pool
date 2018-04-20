@@ -12,22 +12,22 @@ const StaticMenuItems = () => (
   <React.Fragment>
     <MenuItem>FIND JOBS</MenuItem>
     <MenuItem>
-      <NotificationEventNote />My Applications
+      <NotificationEventNote /> My Applications
     </MenuItem>
     <MenuItem>
-      <ActionEvent />My Proposals
+      <ActionEvent /> My Proposals
     </MenuItem>
     <MenuItem>
-      <ContentSave />Saved Jobs
+      <ContentSave /> Saved Jobs
     </MenuItem>
     <MenuItem>
-      <ActionSearch />Saved Searches
+      <ActionSearch /> Saved Searches
     </MenuItem>
     <MenuItem>
-      <SocialWhatshot />Popular Jobs
+      <SocialWhatshot /> Popular Jobs
     </MenuItem>
     <MenuItem>
-      <ActionExplore />Browse Categories
+      <ActionExplore /> Browse Categories
     </MenuItem>
   </React.Fragment>
 );
