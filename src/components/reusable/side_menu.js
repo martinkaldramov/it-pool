@@ -1,5 +1,6 @@
 // @flow
 import * as React from 'react';
+import { Component } from 'react';
 import Divider from 'material-ui/Divider';
 import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
@@ -12,11 +13,40 @@ import RecentSearches from './recent_searches';
 import MyCategories from './my_categories';
 import MyProfile from './my_profile';
 
-type Props = {
-  docked: boolean,
-};
+class SideMenu extends Component {
+  constructor(props: any) {
+    super(props);
+    this.state = { open: false };
+  }
 
-const SideMenu = (props: Props): React.Node => (
+  handleToggle = () => this.setState({ open: !this.state.open });
+
+  handleClose = () => this.setState({ open: false });
+
+  render() {
+    return (
+      <Drawer
+        docked={false}
+        open={this.state.open}
+        onRequestChange={open => this.setState({ open })}
+      >
+        <MenuItem>
+          <ActionHome /> Home
+        </MenuItem>
+        <Divider />
+        <StaticMenuItems />
+        <Divider />
+        <RecentSearches recentSearches={MockProfile.recentSearches} />
+        <Divider />
+        <MyCategories categories={MockProfile.categories} />
+        <Divider />
+        <MyProfile />
+      </Drawer>
+    );
+  }
+}
+
+const SideMenu2 = (props: Props): React.Node => (
   <Drawer docked={props.docked}>
     <MenuItem>
       <ActionHome /> Home

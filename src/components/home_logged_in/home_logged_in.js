@@ -5,7 +5,7 @@ import JobsList from '../reusable/jobs_list';
 
 const HomeLoggedIn = (): React.Node => (
   <React.Fragment>
-    <SideMenu docked />
+    <SideMenu />
     <JobsList />
   </React.Fragment>
 );
