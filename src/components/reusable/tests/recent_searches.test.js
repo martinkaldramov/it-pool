@@ -4,7 +4,7 @@ import RecentSearches from '../recent_searches';
 import MockProfile from '../../../mock_data/mock_profile';
 
 describe('RecentSearches', () => {
-  const wrap = shallow(<RecentSearches searches={MockProfile.recentSearches} />);
+  const wrap = shallow(<RecentSearches recentSearches={MockProfile.recentSearches} />);
 
   it('should render successful', () => {
     expect(wrap).toMatchSnapshot();
