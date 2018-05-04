@@ -3,6 +3,7 @@ import * as React from 'react';
 import Job from './job';
 
 type job = {
+  id: number,
   title: string,
   views: number,
   company: string,
@@ -17,6 +18,7 @@ type job = {
 
 const jobs: job[] = [
   {
+    id: 1,
     title: 'Proofreading/light editing of a legal document translated from Japanese to English',
     views: 236,
     company: 'MODIS BULGARIA',
@@ -30,6 +32,7 @@ const jobs: job[] = [
     skills: ['React.JS', 'Angular.io', 'DevOps', 'ExpressJS', 'Google Firebase'],
   },
   {
+    id: 2,
     title: 'Ericsson FixIT Developer',
     views: 1006,
     company: 'Software Group',
@@ -43,6 +46,7 @@ const jobs: job[] = [
     skills: ['C#', '.NET', 'Visual Studio', 'ExpressJS', 'Google Firebase'],
   },
   {
+    id: 3,
     title: 'Proofreading/light editing of a legal document translated from Japanese to English',
     views: 236,
     company: 'MODIS BULGARIA',
@@ -56,6 +60,7 @@ const jobs: job[] = [
     skills: ['React.JS', 'Angular.io', 'DevOps', 'ExpressJS', 'Google Firebase'],
   },
   {
+    id: 4,
     title: 'Proofreading/light editing of a legal document translated from Japanese to English',
     views: 236,
     company: 'MODIS BULGARIA',
