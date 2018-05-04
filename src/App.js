@@ -17,6 +17,7 @@ const App = () => (
       <Route exact path="/" component={SearchBar} />
       <Route exact path="/search-results" component={SearchResults} />
       <Route exact path="/home-logged-in" component={HomeLoggedIn} />
+      <Route path="/jobs/:id" component={HomeLoggedIn} />
     </Switch>
   </MuiThemeProvider>
 );

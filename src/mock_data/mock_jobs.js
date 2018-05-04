@@ -1,7 +1,5 @@
-// @flow
 import * as React from 'react';
 import { Link } from 'react-router-dom';
-import Job from './job';
 
 type job = {
   id: number,
@@ -80,10 +78,4 @@ const jobs: job[] = [
   },
 ];
 
-const JobsList = () => (
-  <React.Fragment>
-    <ul>{jobs.map(item => <Job jobData={item} />)}</ul>
-  </React.Fragment>
-);
-
-export default JobsList;
+export default jobs;

@@ -5,7 +5,7 @@ import RaisedButton from 'material-ui/RaisedButton';
 
 type JobData = {
   id: number,
-  title: string,
+  title: React.Node,
   views: number,
   company: string,
   date: ?number,
