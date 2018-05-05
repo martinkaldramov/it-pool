@@ -1,11 +1,10 @@
 // @flow
 import * as React from 'react';
-import { Link } from 'react-router-dom';
 import Job from './job';
 
 type job = {
   id: number,
-  title: React.Node,
+  title: string,
   views: number,
   company: string,
   date: ?number,
@@ -20,11 +19,7 @@ type job = {
 const jobs: job[] = [
   {
     id: 1,
-    title: (
-      <Link to="/jobs/:id">
-        Proofreading/light editing of a legal document translated from Japanese to English
-      </Link>
-    ),
+    title: 'Proofreading/light editing of a legal document translated from Japanese to English',
     views: 236,
     company: 'MODIS BULGARIA',
     date: new Date().getDate(),
