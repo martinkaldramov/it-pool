@@ -50,7 +50,14 @@ ShallowWrapper {
           Solid 
           Web Development
         "
-          title="jobTitle"
+          title={
+                    <Link
+                              replace={false}
+                              to="/jobs/1"
+                    >
+                              Proofreading/light editing of a legal document translated from Japanese to English
+                    </Link>
+          }
 />,
         <CardText>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet facilisis ligula, ac consectetur nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce venenatis condimentum tristique. Quisque volutpat vulputate dolor, id rhoncus erat euismod id. Sed maximus dignissim arcu ac pretium. Curabitur vel ante at nunc sodales consectetur. Proin et porta sem, ac volutpat tellus. Curabitur ipsum lacus, gravida id fermentum id, pellentesque vitae erat.
@@ -99,7 +106,12 @@ ShallowWrapper {
           Solid 
           Web Development
         ",
-          "title": "jobTitle",
+          "title": <Link
+            replace={false}
+            to="/jobs/1"
+>
+            Proofreading/light editing of a legal document translated from Japanese to English
+</Link>,
         },
         "ref": null,
         "rendered": null,
@@ -213,7 +225,14 @@ ShallowWrapper {
           Solid 
           Web Development
         "
-            title="jobTitle"
+            title={
+                        <Link
+                                    replace={false}
+                                    to="/jobs/1"
+                        >
+                                    Proofreading/light editing of a legal document translated from Japanese to English
+                        </Link>
+            }
 />,
           <CardText>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet facilisis ligula, ac consectetur nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce venenatis condimentum tristique. Quisque volutpat vulputate dolor, id rhoncus erat euismod id. Sed maximus dignissim arcu ac pretium. Curabitur vel ante at nunc sodales consectetur. Proin et porta sem, ac volutpat tellus. Curabitur ipsum lacus, gravida id fermentum id, pellentesque vitae erat.
@@ -262,7 +281,12 @@ ShallowWrapper {
           Solid 
           Web Development
         ",
-            "title": "jobTitle",
+            "title": <Link
+              replace={false}
+              to="/jobs/1"
+>
+              Proofreading/light editing of a legal document translated from Japanese to English
+</Link>,
           },
           "ref": null,
           "rendered": null,

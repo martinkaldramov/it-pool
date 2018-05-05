@@ -23,8 +23,4 @@ describe('Job', () => {
   it('should render successfully', () => {
     expect(wrap).toMatchSnapshot();
   });
-
-  it('should render a title successfully', () => {
-    expect(wrap.contains(<CardHeader />)).to.equal(true);
-  });
 });

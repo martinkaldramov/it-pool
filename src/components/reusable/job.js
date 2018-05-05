@@ -24,12 +24,12 @@ type Props = {
 
 const Job = (props: Props) => {
   const target = `/jobs/${props.jobData.id}`;
-  const jobTitle = <Link to={target} />;
+  const jobTitle = <Link to={target}>{props.jobData.title}</Link>;
 
   return (
     <Card>
       <CardHeader
-        title="jobTitle"
+        title={jobTitle}
         subtitle={`
           ${props.jobData.company} 
           ${props.jobData.views}
