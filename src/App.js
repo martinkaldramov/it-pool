@@ -9,7 +9,7 @@ import SideMenu from './components/reusable/side_menu';
 import SearchBar from './components/search_bar';
 import SearchResults from './components/search_results/search_results';
 import HomeLoggedIn from './components/home_logged_in/home_logged_in';
-import JobView from './components/reusable/job_view';
+import JobView from './components/reusable/job_view/job_view';
 
 const App = () => (
   <MuiThemeProvider>
