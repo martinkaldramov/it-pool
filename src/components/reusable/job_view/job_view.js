@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Header from './header';
 import mockJobs from '../../../mock_data/mock_jobs';
 
 type job = {
@@ -25,9 +26,15 @@ const JobView = ({ match }: Props) => {
   return (
     <React.Fragment>
       <h2 className="job-header">{displayedJob.title}</h2>
-      <div className="job-sub-header">
-        <p>{displayedJob.category}</p>
-      </div>
+      <Header
+        category={displayedJob.category}
+        timeStamp="5hr ago"
+        experience={displayedJob.experience}
+        company={displayedJob.company}
+        views={displayedJob.views}
+        city={displayedJob.city}
+        type={displayedJob.type}
+      />
     </React.Fragment>
   );
 };
