@@ -29,7 +29,7 @@ const Job = (props: Props) => {
   return (
     <Card>
       <CardHeader
-        title={jobTitle}
+        title="jobTitle"
         subtitle={`
           ${props.jobData.company} 
           ${props.jobData.views}

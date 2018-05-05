@@ -3,6 +3,7 @@ import { shallow } from 'enzyme';
 import Job from '../../components/reusable/job';
 
 const mockJob = {
+  id: 1,
   title: 'Proofreading/light editing of a legal document translated from Japanese to English',
   views: 236,
   company: 'MODIS BULGARIA',
@@ -21,5 +22,9 @@ describe('Job', () => {
 
   it('should render successfully', () => {
     expect(wrap).toMatchSnapshot();
+  });
+
+  it('should render a title successfully', () => {
+    expect(wrap.contains(<CardHeader />)).to.equal(true);
   });
 });

@@ -10,9 +10,10 @@ ShallowWrapper {
             "category": "Web Development",
             "city": "Sofia",
             "company": "MODIS BULGARIA",
-            "date": 18,
+            "date": 5,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet facilisis ligula, ac consectetur nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce venenatis condimentum tristique. Quisque volutpat vulputate dolor, id rhoncus erat euismod id. Sed maximus dignissim arcu ac pretium. Curabitur vel ante at nunc sodales consectetur. Proin et porta sem, ac volutpat tellus. Curabitur ipsum lacus, gravida id fermentum id, pellentesque vitae erat.",
             "experience": "Solid",
+            "id": 1,
             "skills": Array [
               "React.JS",
               "Angular.io",
@@ -42,14 +43,14 @@ ShallowWrapper {
         <CardHeader
           avatar={null}
           subtitle="
-        MODIS BULGARIA 
-        236
-        Sofia 
-        Full Time 
-        Solid 
-        Web Development
-      "
-          title="Proofreading/light editing of a legal document translated from Japanese to English"
+          MODIS BULGARIA 
+          236
+          Sofia 
+          Full Time 
+          Solid 
+          Web Development
+        "
+          title="jobTitle"
 />,
         <CardText>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet facilisis ligula, ac consectetur nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce venenatis condimentum tristique. Quisque volutpat vulputate dolor, id rhoncus erat euismod id. Sed maximus dignissim arcu ac pretium. Curabitur vel ante at nunc sodales consectetur. Proin et porta sem, ac volutpat tellus. Curabitur ipsum lacus, gravida id fermentum id, pellentesque vitae erat.
@@ -91,14 +92,14 @@ ShallowWrapper {
         "props": Object {
           "avatar": null,
           "subtitle": "
-        MODIS BULGARIA 
-        236
-        Sofia 
-        Full Time 
-        Solid 
-        Web Development
-      ",
-          "title": "Proofreading/light editing of a legal document translated from Japanese to English",
+          MODIS BULGARIA 
+          236
+          Sofia 
+          Full Time 
+          Solid 
+          Web Development
+        ",
+          "title": "jobTitle",
         },
         "ref": null,
         "rendered": null,
@@ -205,14 +206,14 @@ ShallowWrapper {
           <CardHeader
             avatar={null}
             subtitle="
-        MODIS BULGARIA 
-        236
-        Sofia 
-        Full Time 
-        Solid 
-        Web Development
-      "
-            title="Proofreading/light editing of a legal document translated from Japanese to English"
+          MODIS BULGARIA 
+          236
+          Sofia 
+          Full Time 
+          Solid 
+          Web Development
+        "
+            title="jobTitle"
 />,
           <CardText>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet facilisis ligula, ac consectetur nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce venenatis condimentum tristique. Quisque volutpat vulputate dolor, id rhoncus erat euismod id. Sed maximus dignissim arcu ac pretium. Curabitur vel ante at nunc sodales consectetur. Proin et porta sem, ac volutpat tellus. Curabitur ipsum lacus, gravida id fermentum id, pellentesque vitae erat.
@@ -254,14 +255,14 @@ ShallowWrapper {
           "props": Object {
             "avatar": null,
             "subtitle": "
-        MODIS BULGARIA 
-        236
-        Sofia 
-        Full Time 
-        Solid 
-        Web Development
-      ",
-            "title": "Proofreading/light editing of a legal document translated from Japanese to English",
+          MODIS BULGARIA 
+          236
+          Sofia 
+          Full Time 
+          Solid 
+          Web Development
+        ",
+            "title": "jobTitle",
           },
           "ref": null,
           "rendered": null,
