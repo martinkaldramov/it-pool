@@ -9,6 +9,7 @@ import SideMenu from './components/reusable/side_menu';
 import SearchBar from './components/search_bar';
 import SearchResults from './components/search_results/search_results';
 import HomeLoggedIn from './components/home_logged_in/home_logged_in';
+import JobView from './components/reusable/job_view';
 
 const App = () => (
   <MuiThemeProvider>
@@ -17,6 +18,7 @@ const App = () => (
       <Route exact path="/" component={SearchBar} />
       <Route exact path="/search-results" component={SearchResults} />
       <Route exact path="/home-logged-in" component={HomeLoggedIn} />
+      <Route path="/jobs/:id" component={JobView} />
     </Switch>
   </MuiThemeProvider>
 );

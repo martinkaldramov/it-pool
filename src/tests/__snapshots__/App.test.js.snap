@@ -35,6 +35,10 @@ ShallowWrapper {
                     exact={true}
                     path="/home-logged-in"
           />
+          <Route
+                    component={[Function]}
+                    path="/jobs/:id"
+          />
 </Switch>,
       ],
     },
@@ -69,6 +73,10 @@ ShallowWrapper {
               component={[Function]}
               exact={true}
               path="/home-logged-in"
+/>,
+            <Route
+              component={[Function]}
+              path="/jobs/:id"
 />,
           ],
         },
@@ -113,6 +121,18 @@ ShallowWrapper {
             "rendered": null,
             "type": [Function],
           },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "path": "/jobs/:id",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
         ],
         "type": [Function],
       },
@@ -142,6 +162,10 @@ ShallowWrapper {
                         component={[Function]}
                         exact={true}
                         path="/home-logged-in"
+            />
+            <Route
+                        component={[Function]}
+                        path="/jobs/:id"
             />
 </Switch>,
         ],
@@ -177,6 +201,10 @@ ShallowWrapper {
                 component={[Function]}
                 exact={true}
                 path="/home-logged-in"
+/>,
+              <Route
+                component={[Function]}
+                path="/jobs/:id"
 />,
             ],
           },
@@ -216,6 +244,18 @@ ShallowWrapper {
                 "component": [Function],
                 "exact": true,
                 "path": "/home-logged-in",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "path": "/jobs/:id",
               },
               "ref": null,
               "rendered": null,
