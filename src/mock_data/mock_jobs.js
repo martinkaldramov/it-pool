@@ -27,6 +27,7 @@ const jobs: job[] = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet facilisis ligula, ac consectetur nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce venenatis condimentum tristique. Quisque volutpat vulputate dolor, id rhoncus erat euismod id. Sed maximus dignissim arcu ac pretium. Curabitur vel ante at nunc sodales consectetur. Proin et porta sem, ac volutpat tellus. Curabitur ipsum lacus, gravida id fermentum id, pellentesque vitae erat.',
     skills: ['React.JS', 'Angular.io', 'DevOps', 'ExpressJS', 'Google Firebase'],
     education: 'Bachelors in Computer Science',
+    languages: ['English', 'French', 'German'],
   },
   {
     id: 2,
@@ -42,6 +43,7 @@ const jobs: job[] = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet facilisis ligula, ac consectetur nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce venenatis condimentum tristique. Quisque volutpat vulputate dolor, id rhoncus erat euismod id. Sed maximus dignissim arcu ac pretium. Curabitur vel ante at nunc sodales consectetur. Proin et porta sem, ac volutpat tellus. Curabitur ipsum lacus, gravida id fermentum id, pellentesque vitae erat.',
     skills: ['C#', '.NET', 'Visual Studio', 'ExpressJS', 'Google Firebase'],
     education: 'Bachelors in Computer Science',
+    languages: ['English', 'French', 'German'],
   },
   {
     id: 3,
@@ -57,6 +59,7 @@ const jobs: job[] = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet facilisis ligula, ac consectetur nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce venenatis condimentum tristique. Quisque volutpat vulputate dolor, id rhoncus erat euismod id. Sed maximus dignissim arcu ac pretium. Curabitur vel ante at nunc sodales consectetur. Proin et porta sem, ac volutpat tellus. Curabitur ipsum lacus, gravida id fermentum id, pellentesque vitae erat.',
     skills: ['React.JS', 'Angular.io', 'DevOps', 'ExpressJS', 'Google Firebase'],
     education: 'Bachelors in Computer Science',
+    languages: ['English', 'French', 'German'],
   },
   {
     id: 4,
@@ -72,6 +75,7 @@ const jobs: job[] = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet facilisis ligula, ac consectetur nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce venenatis condimentum tristique. Quisque volutpat vulputate dolor, id rhoncus erat euismod id. Sed maximus dignissim arcu ac pretium. Curabitur vel ante at nunc sodales consectetur. Proin et porta sem, ac volutpat tellus. Curabitur ipsum lacus, gravida id fermentum id, pellentesque vitae erat.',
     skills: ['React.JS', 'Angular.io', 'DevOps', 'ExpressJS', 'Google Firebase'],
     education: 'Bachelors in Computer Science',
+    languages: ['English', 'French', 'German'],
   },
 ];
 
