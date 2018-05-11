@@ -3,6 +3,7 @@ import Header from './header';
 import mockJobs from '../../../mock_data/mock_jobs';
 import Actions from './actions';
 import Skills from './skills';
+import Languages from './languages';
 
 type job = {
   id: number,
@@ -55,6 +56,7 @@ const JobView = ({ match }: Props) => {
       <h4>EDUCATION</h4>
       <p>{displayedJob.education}</p>
       <hr />
+      <Languages languages={displayedJob.languages} />
     </React.Fragment>
   );
 };
