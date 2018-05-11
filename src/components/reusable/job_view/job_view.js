@@ -41,6 +41,10 @@ const JobView = ({ match }: Props) => {
         type={displayedJob.type}
       />
       <Actions apply={jobApply} save={jobSave} />
+      <h4>DETAILS</h4>
+      <div>
+        <p>{displayedJob.description}</p>
+      </div>
     </React.Fragment>
   );
 };
