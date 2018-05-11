@@ -16,6 +16,7 @@ type job = {
   category: string,
   description: string,
   skills: string[],
+  education: string,
 };
 
 type Props = {
@@ -49,6 +50,9 @@ const JobView = ({ match }: Props) => {
       </div>
       <hr />
       <Skills skills={displayedJob.skills} />
+      <hr />
+      <h4>EDUCATION</h4>
+      <p>{displayedJob.education}</p>
     </React.Fragment>
   );
 };
