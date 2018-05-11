@@ -2,6 +2,7 @@ import * as React from 'react';
 import Header from './header';
 import mockJobs from '../../../mock_data/mock_jobs';
 import Actions from './actions';
+import Skills from './skills';
 
 type job = {
   id: number,
@@ -47,7 +48,7 @@ const JobView = ({ match }: Props) => {
         <p>{displayedJob.description}</p>
       </div>
       <hr />
-      <h4>SKILLS</h4>
+      <Skills skills={displayedJob.skills} />
     </React.Fragment>
   );
 };

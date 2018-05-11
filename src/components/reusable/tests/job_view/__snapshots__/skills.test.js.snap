@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skills should render successfully 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Skills
+    skills={
+        Array [
+            "React.JS",
+            "Angular.io",
+            "DevOps",
+            "ExpressJS",
+            "Google Firebase",
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <h4>
+          SKILLS
+</h4>,
+        <ul>
+          <li>
+                    React.JS
+          </li>
+          <li>
+                    Angular.io
+          </li>
+          <li>
+                    DevOps
+          </li>
+          <li>
+                    ExpressJS
+          </li>
+          <li>
+                    Google Firebase
+          </li>
+</ul>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "SKILLS",
+        },
+        "ref": null,
+        "rendered": "SKILLS",
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              React.JS
+</li>,
+            <li>
+              Angular.io
+</li>,
+            <li>
+              DevOps
+</li>,
+            <li>
+              ExpressJS
+</li>,
+            <li>
+              Google Firebase
+</li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "React.JS",
+            },
+            "ref": null,
+            "rendered": "React.JS",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Angular.io",
+            },
+            "ref": null,
+            "rendered": "Angular.io",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "DevOps",
+            },
+            "ref": null,
+            "rendered": "DevOps",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "ExpressJS",
+            },
+            "ref": null,
+            "rendered": "ExpressJS",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Google Firebase",
+            },
+            "ref": null,
+            "rendered": "Google Firebase",
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <h4>
+            SKILLS
+</h4>,
+          <ul>
+            <li>
+                        React.JS
+            </li>
+            <li>
+                        Angular.io
+            </li>
+            <li>
+                        DevOps
+            </li>
+            <li>
+                        ExpressJS
+            </li>
+            <li>
+                        Google Firebase
+            </li>
+</ul>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "SKILLS",
+          },
+          "ref": null,
+          "rendered": "SKILLS",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                React.JS
+</li>,
+              <li>
+                Angular.io
+</li>,
+              <li>
+                DevOps
+</li>,
+              <li>
+                ExpressJS
+</li>,
+              <li>
+                Google Firebase
+</li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "React.JS",
+              },
+              "ref": null,
+              "rendered": "React.JS",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Angular.io",
+              },
+              "ref": null,
+              "rendered": "Angular.io",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "DevOps",
+              },
+              "ref": null,
+              "rendered": "DevOps",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "ExpressJS",
+              },
+              "ref": null,
+              "rendered": "ExpressJS",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Google Firebase",
+              },
+              "ref": null,
+              "rendered": "Google Firebase",
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

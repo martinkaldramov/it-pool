@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallwo } from 'enzyme';
+import { shallow } from 'enzyme';
 import Skills from '../../job_view/skills';
 
 describe('Skills', () => {
@@ -11,6 +11,7 @@ describe('Skills', () => {
   });
 
   it('should render all the passed skills', () => {
-    expect(wrapper.find('ul').children()).to.have.length(mockSkills.length);
+    console.log(mockSkills.length);
+    expect(wrapper.find('ul').children().length).toBe(mockSkills.length);
   });
 });
