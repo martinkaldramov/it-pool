@@ -6,6 +6,6 @@ describe('SimilarJobs', () => {
   const wrapper = shallow(<SimilarJobs />);
 
   it('should render successfuly', () => {
-    expect(wrapper).tomatchSnapshot();
+    expect(wrapper).toMatchSnapshot();
   });
 });

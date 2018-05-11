@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimilarJobs should render successfuly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SimilarJobs />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <h4>
+          SIMILAR JOBS
+</h4>,
+        <ul>
+          <li>
+                    Proofreading/light editing of a legal document translated from Japanese to English
+          </li>
+          <li>
+                    Ericsson FixIT Developer
+          </li>
+          <li>
+                    Proofreading/light editing of a legal document translated from Japanese to English
+          </li>
+          <li>
+                    Proofreading/light editing of a legal document translated from Japanese to English
+          </li>
+</ul>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "SIMILAR JOBS",
+        },
+        "ref": null,
+        "rendered": "SIMILAR JOBS",
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              Proofreading/light editing of a legal document translated from Japanese to English
+</li>,
+            <li>
+              Ericsson FixIT Developer
+</li>,
+            <li>
+              Proofreading/light editing of a legal document translated from Japanese to English
+</li>,
+            <li>
+              Proofreading/light editing of a legal document translated from Japanese to English
+</li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Proofreading/light editing of a legal document translated from Japanese to English",
+            },
+            "ref": null,
+            "rendered": "Proofreading/light editing of a legal document translated from Japanese to English",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Ericsson FixIT Developer",
+            },
+            "ref": null,
+            "rendered": "Ericsson FixIT Developer",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Proofreading/light editing of a legal document translated from Japanese to English",
+            },
+            "ref": null,
+            "rendered": "Proofreading/light editing of a legal document translated from Japanese to English",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Proofreading/light editing of a legal document translated from Japanese to English",
+            },
+            "ref": null,
+            "rendered": "Proofreading/light editing of a legal document translated from Japanese to English",
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <h4>
+            SIMILAR JOBS
+</h4>,
+          <ul>
+            <li>
+                        Proofreading/light editing of a legal document translated from Japanese to English
+            </li>
+            <li>
+                        Ericsson FixIT Developer
+            </li>
+            <li>
+                        Proofreading/light editing of a legal document translated from Japanese to English
+            </li>
+            <li>
+                        Proofreading/light editing of a legal document translated from Japanese to English
+            </li>
+</ul>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "SIMILAR JOBS",
+          },
+          "ref": null,
+          "rendered": "SIMILAR JOBS",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                Proofreading/light editing of a legal document translated from Japanese to English
+</li>,
+              <li>
+                Ericsson FixIT Developer
+</li>,
+              <li>
+                Proofreading/light editing of a legal document translated from Japanese to English
+</li>,
+              <li>
+                Proofreading/light editing of a legal document translated from Japanese to English
+</li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Proofreading/light editing of a legal document translated from Japanese to English",
+              },
+              "ref": null,
+              "rendered": "Proofreading/light editing of a legal document translated from Japanese to English",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Ericsson FixIT Developer",
+              },
+              "ref": null,
+              "rendered": "Ericsson FixIT Developer",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Proofreading/light editing of a legal document translated from Japanese to English",
+              },
+              "ref": null,
+              "rendered": "Proofreading/light editing of a legal document translated from Japanese to English",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Proofreading/light editing of a legal document translated from Japanese to English",
+              },
+              "ref": null,
+              "rendered": "Proofreading/light editing of a legal document translated from Japanese to English",
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

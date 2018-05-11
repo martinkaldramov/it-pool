@@ -2,7 +2,7 @@
 import * as React from 'react';
 
 type Props = {
-  languages: string[],
+  languages: any,
 };
 
 const Languages = ({ languages }: Props) => {

@@ -1,9 +1,11 @@
+// @flow
 import * as React from 'react';
 import Header from './header';
-import mockJobs from '../../../mock_data/mock_jobs';
 import Actions from './actions';
 import Skills from './skills';
 import Languages from './languages';
+import SimilarJobs from './similar_jobs';
+import mockJobs from '../../../mock_data/mock_jobs';
 
 type job = {
   id: number,
@@ -27,10 +29,9 @@ type Props = {
 
 const JobView = ({ match }: Props) => {
   const displayedJob: job = mockJobs[match.params.id - 1];
-
-  const jobApply = () => console.log('Applied for a job');
-
-  const jobSave = () => console.log('Saved a job');
+  const jobApply: any = () => console.log('Applied for a job');
+  const jobSave: any = () => console.log('Saved a job');
+  const { languages } = displayedJob;
 
   return (
     <React.Fragment>
@@ -56,7 +57,9 @@ const JobView = ({ match }: Props) => {
       <h4>EDUCATION</h4>
       <p>{displayedJob.education}</p>
       <hr />
-      <Languages languages={displayedJob.languages} />
+      <Languages languages={languages} />
+      <hr />
+      <SimilarJobs />
     </React.Fragment>
   );
 };
