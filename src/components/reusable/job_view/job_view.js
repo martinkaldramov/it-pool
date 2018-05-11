@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Header from './header';
 import mockJobs from '../../../mock_data/mock_jobs';
+import Actions from './actions';
 
 type job = {
   id: number,
@@ -23,6 +24,10 @@ type Props = {
 const JobView = ({ match }: Props) => {
   const displayedJob: job = mockJobs[match.params.id - 1];
 
+  const jobApply = () => console.log('Applied for a job');
+
+  const jobSave = () => console.log('Saved a job');
+
   return (
     <React.Fragment>
       <h2 className="job-header">{displayedJob.title}</h2>
@@ -35,6 +40,7 @@ const JobView = ({ match }: Props) => {
         city={displayedJob.city}
         type={displayedJob.type}
       />
+      <Actions apply={jobApply} save={jobSave} />
     </React.Fragment>
   );
 };

@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Job Actions should render successfully 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Actions
+    apply={[Function]}
+    save={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <RaisedButton
+          className="job-apply"
+          disabled={false}
+          fullWidth={false}
+          label="APPLY"
+          labelPosition="after"
+          onClick={[Function]}
+          primary={true}
+          secondary={false}
+/>,
+        <RaisedButton
+          className="job-save"
+          disabled={false}
+          fullWidth={false}
+          label="SAVE JOB"
+          labelPosition="after"
+          onClick={[Function]}
+          primary={true}
+          secondary={false}
+/>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "className": "job-apply",
+          "disabled": false,
+          "fullWidth": false,
+          "label": "APPLY",
+          "labelPosition": "after",
+          "onClick": [Function],
+          "primary": true,
+          "secondary": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "className": "job-save",
+          "disabled": false,
+          "fullWidth": false,
+          "label": "SAVE JOB",
+          "labelPosition": "after",
+          "onClick": [Function],
+          "primary": true,
+          "secondary": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <RaisedButton
+            className="job-apply"
+            disabled={false}
+            fullWidth={false}
+            label="APPLY"
+            labelPosition="after"
+            onClick={[Function]}
+            primary={true}
+            secondary={false}
+/>,
+          <RaisedButton
+            className="job-save"
+            disabled={false}
+            fullWidth={false}
+            label="SAVE JOB"
+            labelPosition="after"
+            onClick={[Function]}
+            primary={true}
+            secondary={false}
+/>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "className": "job-apply",
+            "disabled": false,
+            "fullWidth": false,
+            "label": "APPLY",
+            "labelPosition": "after",
+            "onClick": [Function],
+            "primary": true,
+            "secondary": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "className": "job-save",
+            "disabled": false,
+            "fullWidth": false,
+            "label": "SAVE JOB",
+            "labelPosition": "after",
+            "onClick": [Function],
+            "primary": true,
+            "secondary": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
