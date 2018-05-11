@@ -41,6 +41,8 @@ ShallowWrapper {
           primary={true}
           secondary={false}
 />,
+        <ContentFlag />,
+        " Flag as inappropriate",
       ],
     },
     "ref": null,
@@ -81,6 +83,16 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      " Flag as inappropriate",
     ],
     "type": Symbol(react.fragment),
   },
@@ -111,6 +123,8 @@ ShallowWrapper {
             primary={true}
             secondary={false}
 />,
+          <ContentFlag />,
+          " Flag as inappropriate",
         ],
       },
       "ref": null,
@@ -151,6 +165,16 @@ ShallowWrapper {
           "rendered": null,
           "type": [Function],
         },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        " Flag as inappropriate",
       ],
       "type": Symbol(react.fragment),
     },
